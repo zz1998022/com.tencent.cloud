@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>腾讯云图-24px</title>
+    <desc>Created with Sketch.</desc>
+    <g id="腾讯云图-24px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-Copy" fill="#444444" opacity="0" x="0" y="0" width="24" height="24"></rect>
+        <g id="编组-4" transform="translate(0.000000, 1.000000)" fill="#00A4FF">
+            <g id="编组-5">
+                <g id="编组-3" transform="translate(5.000000, 5.000000)">
+                    <rect id="矩形" x="0" y="3" width="2" height="6"></rect>
+                    <rect id="矩形复制" x="3" y="2" width="2" height="4"></rect>
+                    <rect id="矩形复制-3" x="6" y="0" width="2" height="5"></rect>
+                    <rect id="矩形复制-4" x="9" y="2" width="2" height="4"></rect>
+                    <rect id="矩形复制-5" x="12" y="3" width="2" height="6"></rect>
+                    <rect id="矩形复制-2" x="3" y="7" width="2" height="3"></rect>
+                    <rect id="矩形复制-7" stroke="#00A4FF" x="6.5" y="7.5" width="1" height="4"></rect>
+                </g>
+                <rect id="矩形复制-6" x="14" y="12" width="2" height="3"></rect>
+                <g id="编组-2">
+                    <g id="编组">
+                        <path d="M2,6 L2,19 L22,19 L22,21 L0,21 L0,6 L2,6 Z M24,1 L24,16 L22,16 L22,3 L2,3 L2,1 L24,1 Z" id="形状结合" fill-rule="nonzero"></path>
+                        <circle id="椭圆形" cx="2" cy="2" r="2"></circle>
+                        <circle id="椭圆形复制" cx="22" cy="20" r="2"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

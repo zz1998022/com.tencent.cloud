@@ -253,19 +253,22 @@ nav {
 .banner {
     width: 100%;
     height: 480px;
+    margin-bottom: 76px;
 
     .banner-main {
         position: absolute;
         width: 100%;
         height: 480px;
+        overflow: hidden;
 
         li {
+            position: absolute;
             width: 100%;
             height: 480px;
-            background-image: url(../images/banner-01.png);
             background-repeat: no-repeat;
             background-position: center;
             background-size: 100% 100%;
+            display: none;
         }
     }
 
@@ -331,14 +334,19 @@ nav {
     ol {
         position: absolute;
         bottom: -264px;
-        left: 34px;
+        left: 14px;
 
         li {
             float: left;
             width: 30px;
-            height: 2px;
+            height: 3px;
             margin: 0 3px;
             background-color: rgba(255, 255, 255, .5);
+            border: 3px none transparent;
+        }
+
+        li:hover {
+            cursor: pointer;
         }
 
         li.active {
@@ -358,7 +366,12 @@ nav {
             text-align: left;
             margin-right: 12px;
             background-color: #fff;
-            border-radius: 2px;
+            transition: box-shadow .3s;
+
+            &:hover {
+                transition: box-shadow .3s;
+                box-shadow: 0 0 4px 0 #ccc;
+            }
 
             a {
                 display: block;
@@ -411,4 +424,63 @@ nav {
         }
     }
 
+}
+
+// 介绍部分
+.jieshao {
+    padding-top: 40px;
+
+    .jieshao-title {
+        text-align: center;
+        margin-bottom: 60px;
+
+        h2 {
+            font-size: 32px;
+            line-height: 48px;
+            color: #000;
+            font-weight: 400;
+            font-family: "Microsoft YaHei";
+        }
+    }
+
+    .jieshao-tab {
+        li {
+            display: inline-block;
+            text-align: center;
+            position: relative;
+            cursor: pointer;
+            padding-bottom: 12px;
+            overflow: hidden;
+            vertical-align: bottom;
+            margin-bottom: -1px;
+
+            &.line {
+                border-bottom: 1px solid #00a4ff;
+            }
+
+            &:hover a {
+                color: #00b8ff;
+            }
+
+            a {
+                display: block;
+                padding: 0 36px;
+                font-size: 18px;
+                line-height: 28px;
+                color: #333;
+
+                &.active {
+                    color: #00a4ff;
+                }
+
+                img {
+                    width: 24px;
+                    height: 24px;
+                    display: inline-block;
+                    vertical-align: -6px;
+                    margin-right: 4px;
+                }
+            }
+        }
+    }
 }
