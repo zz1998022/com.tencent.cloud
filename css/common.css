@@ -1,0 +1,15 @@
+/* 版心 */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 清除浮动 */
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}

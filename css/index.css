@@ -1,0 +1,426 @@
+.add-info {
+  padding: 11px 20px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: static;
+  background-color: #e4eff5;
+  color: #333;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.add-info a {
+  color: #00a4ff;
+}
+
+header {
+  height: 40px;
+  background-color: #2b303b;
+  padding: 0 20px;
+  position: relative;
+  font-size: 0;
+  z-index: 1001;
+}
+
+header .header-left {
+  position: absolute;
+  left: 20px;
+  top: 0px;
+}
+
+header .header-left a:first-child {
+  height: 100%;
+  text-align: left;
+  cursor: pointer;
+  padding: 12px 20px 12px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  float: left;
+  position: relative;
+  z-index: 1001;
+}
+
+header .header-left a:first-child i {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background-image: url(../images/base-202004131024.svg);
+  vertical-align: middle;
+  background-position: 99.52% 0.5499999999999999%;
+  background-size: 1400% 1243.75%;
+  background-repeat: no-repeat;
+}
+
+header .header-left span {
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 16px;
+  color: #fff;
+  padding-left: 8px;
+}
+
+header .header-left-line {
+  float: left;
+  margin-right: 20px;
+  height: 16px;
+  margin: 12px 10px;
+  vertical-align: middle;
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  position: relative;
+  z-index: 1001;
+}
+
+header .header-logo {
+  height: 100%;
+  display: inline-block;
+  z-index: 1000;
+  position: relative;
+}
+
+header .header-logo i {
+  width: 78px;
+  height: 18px;
+  margin-top: 11px;
+  display: inline-block;
+  background-image: url(../images/logo-bg-color.svg);
+  background-size: 100% 100%;
+  text-indent: -10000px;
+}
+
+header .header-right {
+  font-size: 0;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  height: 100%;
+}
+
+header .header-right a:hover {
+  color: #029df3 !important;
+}
+
+header .header-serach {
+  float: left;
+  position: relative;
+  width: 160px;
+  text-align: left;
+  padding-left: 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  margin: 0 10px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #383e4d;
+  font-size: 12px;
+  color: #8A8E99;
+}
+
+header .header-serach i {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  z-index: 2;
+  background-image: url(../images/base-202004131024.svg);
+  width: 16px;
+  height: 16px;
+  vertical-align: sub;
+  background-position: 90.86999999999999% 89.07000000000001%;
+  background-size: 1400% 1243.75%;
+  background-repeat: no-repeat;
+}
+
+header .header-serach input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+}
+
+header .header-serach input::-webkit-input-placeholder {
+  color: #595e6c;
+}
+
+header .header-serach input:-ms-input-placeholder {
+  color: #595e6c;
+}
+
+header .header-serach input::-ms-input-placeholder {
+  color: #595e6c;
+}
+
+header .header-serach input::placeholder {
+  color: #595e6c;
+}
+
+header .header-select {
+  float: left;
+  height: 100%;
+}
+
+header .header-select div:nth-child(1) {
+  float: left;
+  position: relative;
+  color: #fff;
+  font-size: 0;
+  -webkit-transition: background-color .4s;
+  transition: background-color .4s;
+  outline: 0;
+  height: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1;
+}
+
+header .header-select div:nth-child(1) a {
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  color: #fff;
+  font-size: 0;
+  -webkit-transition: background-color .4s;
+  transition: background-color .4s;
+  outline: 0;
+  padding-top: 12px;
+  height: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1;
+}
+
+header .header-select div:nth-child(1) a span {
+  margin-left: 5px;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+header .header-select div:nth-child(1) a .global {
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/base-202004131024.svg);
+  margin-right: 0;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: 90.86999999999999% 69.39999999999999%;
+  background-size: 1400% 1243.75%;
+  background-repeat: no-repeat;
+}
+
+header .header-select div:nth-child(1) a .jiantou {
+  width: 6px;
+  height: 4px;
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(../images/base-202004131024.svg);
+  margin-left: 5px;
+  background-position: 94.95% 98.97%;
+  background-size: 3733.3333333333335% 4975%;
+  background-repeat: no-repeat;
+}
+
+header .header-select div:last-child {
+  float: left;
+}
+
+header .header-select div:last-child a {
+  display: inline-block;
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+  color: #fff;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 2;
+  border-bottom: 1px solid #20283b;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul a {
+  display: inline-block;
+  padding: 0 15px;
+  color: #fff;
+  line-height: 54px;
+  height: 54px;
+  font-size: 14px;
+  -webkit-transition: background-color .4s;
+  transition: background-color .4s;
+}
+
+.banner {
+  width: 100%;
+  height: 480px;
+}
+
+.banner .banner-main {
+  position: absolute;
+  width: 100%;
+  height: 480px;
+}
+
+.banner .banner-main li {
+  width: 100%;
+  height: 480px;
+  background-image: url(../images/banner-01.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.banner .container {
+  position: relative;
+  top: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 120px 10px 0;
+}
+
+.banner .adver {
+  position: absolute;
+  right: 10px;
+  top: 104px;
+  width: 280px;
+}
+
+.banner .adver li {
+  margin-bottom: 8px;
+  background-color: #1C2A3F;
+  border-radius: 2px;
+  background-size: cover;
+}
+
+.banner .adver li a {
+  display: block;
+  padding: 16px 100px 16px 20px;
+  position: relative;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+.banner .adver li span {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 62px;
+  border: 1px solid #04C8DC;
+  padding: 0 6px;
+  font-size: 12px;
+  line-height: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #04C8DC;
+}
+
+.banner .adver li p {
+  margin-top: 4px;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.8);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  height: 26px;
+  word-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+}
+
+.banner ol {
+  position: absolute;
+  bottom: -264px;
+  left: 34px;
+}
+
+.banner ol li {
+  float: left;
+  width: 30px;
+  height: 2px;
+  margin: 0 3px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.banner ol li.active {
+  background-color: #04C8DC;
+}
+
+.banner .banner-rumen {
+  position: absolute;
+  bottom: -420px;
+}
+
+.banner .banner-rumen .col {
+  width: 280px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  text-align: left;
+  margin-right: 12px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.banner .banner-rumen .col a {
+  display: block;
+  position: relative;
+  top: 0;
+  -webkit-box-shadow: 0 2px 4px rgba(3, 27, 78, 0.06);
+          box-shadow: 0 2px 4px rgba(3, 27, 78, 0.06);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 19px 20px;
+  border-radius: 2px;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+.banner .banner-rumen .col a div {
+  position: relative;
+  padding-left: 60px;
+}
+
+.banner .banner-rumen .col a div h3 {
+  position: relative;
+  margin-bottom: 6px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #333;
+  height: 26px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+}
+
+.banner .banner-rumen .col a div p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #666;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 400;
+}
+
+.banner .banner-rumen .col a div img {
+  position: absolute;
+  left: 0;
+  top: 3px;
+  width: 48px;
+  height: 48px;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>技术课程 copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="技术课程-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="48" height="48"></rect>
+        <g id="Group-2">
+            <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="48" height="48"></rect>
+            <g id="Group" transform="translate(0.000000, 4.000000)">
+                <path d="M1,1 L1,38 L21.3027756,38 L24,39.7981496 L26.6972244,38 L47,38 L47,1 L27.3027756,1 L24,3.20185043 L20.6972244,1 L1,1 Z" id="Rectangle-23" stroke="#334966" stroke-width="2"></path>
+                <polygon id="Rectangle-110" fill="#00A4FF" points="24 11 27 8 40 8 40 28 37 31 24 31"></polygon>
+                <polygon id="Rectangle-110-Copy-2" fill="#334966" points="8 19 30 19 30 21 8 21"></polygon>
+                <polygon id="Rectangle-110-Copy-5" fill="#334966" points="8 26 30 26 30 28 8 28"></polygon>
+                <rect id="Rectangle-110-Copy-6" fill="#334966" x="8" y="12" width="12" height="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

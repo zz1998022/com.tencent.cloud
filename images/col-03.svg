@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>云+开发者</title>
+    <desc>Created with Sketch.</desc>
+    <g id="云+开发者" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M42,42 L42,38 L48,44 L46,44 L0,44 L0,42 L0,9 L2,11 L2,42 L42,42 Z M2,4 L48,4 L48,6 L48,39 L46,37 L46,6 L6,6 L6,10 L0,4 L2,4 Z" id="Combined-Shape" fill="#334966"></path>
+        <rect id="Rectangle-108" fill="#00A4FF" x="29" y="24" width="17" height="10"></rect>
+        <polygon id="Fill-4-Copy" fill="#334966" transform="translate(32.778175, 23.778175) scale(1, -1) rotate(-45.000000) translate(-32.778175, -23.778175) " points="36.2781746 27.2781746 27.2781746 27.2781746 27.2781746 29.2781746 36.2781746 29.2781746 38.2781746 29.2781746 38.2781746 27.2781746 38.2781746 18.2781746 36.2781746 18.2781746"></polygon>
+        <polygon id="Fill-4-Copy-2" fill="#00A4FF" transform="translate(14.778175, 23.778175) scale(-1, -1) rotate(-45.000000) translate(-14.778175, -23.778175) " points="18.2781746 27.2781746 9.27817459 27.2781746 9.27817459 29.2781746 18.2781746 29.2781746 20.2781746 29.2781746 20.2781746 27.2781746 20.2781746 18.2781746 18.2781746 18.2781746"></polygon>
+        <polygon id="Fill-7-Copy" fill="#334966" transform="translate(23.866817, 24.272913) rotate(-23.000000) translate(-23.866817, -24.272913) " points="18.1847891 30.2481017 16.7705756 28.8338881 29.5488446 18.2977239 30.9630582 19.7119374"></polygon>
+    </g>
+</svg>
