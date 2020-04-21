@@ -472,6 +472,10 @@ nav ul a {
   margin-bottom: -1px;
 }
 
+.jieshao .jieshao-tab li.sel a {
+  color: #00a4ff;
+}
+
 .jieshao .jieshao-tab li.line {
   border-bottom: 1px solid #00a4ff;
 }
@@ -498,5 +502,60 @@ nav ul a {
   display: inline-block;
   vertical-align: -6px;
   margin-right: 4px;
+}
+
+.jieshao .jieshao-content .jieshao-item {
+  display: none;
+}
+
+.jieshao .jieshao-content .jieshao-item ul {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.jieshao .jieshao-content .jieshao-item ul a {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.jieshao .jieshao-content .jieshao-item ul a div {
+  font-size: 14px;
+  height: 24px;
+  line-height: 24px;
+  color: #999;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.jieshao .jieshao-content .jieshao-item ul a h3 {
+  color: #000;
+  font-size: 14px;
+  line-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 400;
+}
+
+.jieshao .jieshao-content .jieshao-item ul li {
+  width: 320px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid transparent;
+}
+
+.jieshao .jieshao-content .jieshao-item ul li:hover {
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(3, 27, 78, 0.12);
+          box-shadow: 0 2px 4px 0 rgba(3, 27, 78, 0.12);
+}
+
+.jieshao .jieshao-content .jieshao-item ul li h3.active {
+  color: #00a4ff;
 }
 /*# sourceMappingURL=index.css.map */
