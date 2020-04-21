@@ -791,4 +791,59 @@ nav {
             color: #666;
         }
     }
+
+    .cloud-show-bar {
+        ul {
+            display: flex;
+            width: 100%;
+            border-bottom: #e5e5e5 1px solid;
+            position: relative;
+        }
+
+        li {
+            flex: 1;
+            display: inline-block;
+            margin: 0 80px -1px;
+            overflow: hidden;
+            text-align: center;
+            position: relative;
+            cursor: pointer;
+            padding-bottom: 12px;
+            box-sizing: border-box;
+
+            &.active a em,
+            &.active a span{
+                color: #00a4ff;
+            }
+
+            &:hover a em {
+                color: #00a4ff;
+            }
+
+            a {
+                display: block;
+                padding: 0 30px;
+                text-decoration: none;
+                font-size: 18px;
+                line-height: 28px;
+                color: #00a4ff;
+                box-sizing: border-box;
+
+                em {
+                    display: block;
+                    line-height: 28px;
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: #333333;
+                }
+
+                span {
+                    display: block;
+                    line-height: 24px;
+                    font-size: 14px;
+                    color: #999999;
+                }
+            }
+        }
+    }
 }

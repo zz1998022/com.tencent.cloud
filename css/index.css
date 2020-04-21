@@ -806,4 +806,63 @@ nav ul a {
   line-height: 26px;
   color: #666;
 }
+
+.cloud .cloud-show-bar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border-bottom: #e5e5e5 1px solid;
+  position: relative;
+}
+
+.cloud .cloud-show-bar li {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: inline-block;
+  margin: 0 80px -1px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  padding-bottom: 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cloud .cloud-show-bar li.active a em,
+.cloud .cloud-show-bar li.active a span {
+  color: #00a4ff;
+}
+
+.cloud .cloud-show-bar li:hover a em {
+  color: #00a4ff;
+}
+
+.cloud .cloud-show-bar li a {
+  display: block;
+  padding: 0 30px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 28px;
+  color: #00a4ff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cloud .cloud-show-bar li a em {
+  display: block;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333333;
+}
+
+.cloud .cloud-show-bar li a span {
+  display: block;
+  line-height: 24px;
+  font-size: 14px;
+  color: #999999;
+}
 /*# sourceMappingURL=index.css.map */
