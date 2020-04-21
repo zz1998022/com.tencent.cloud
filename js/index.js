@@ -2,9 +2,11 @@ $(document).ready(function () {
     /* 轮播图部分 */
     banner();
     // tab切换
-    tabToggle($('.jieshao-tab>ul>li'), $('.jieshao-content>.jieshao-item'),'sel',{'display':'flex'});
+    tabToggle($('.jieshao-tab>ul>li'), $('.jieshao-content>.jieshao-item'), 'sel', {
+        'display': 'flex'
+    });
     // 解决方案tab切换
-    tabToggle($('.program-bar ul>li'),$('.program-left>.program-itme'),'active',500);
+    tabToggle($('.program-bar ul>li'), $('.program-left>.program-itme'), 'active',null, 500);
 })
 
 
@@ -32,25 +34,21 @@ function banner() {
         // 让其他元素变为透明
         currentOl.stop().fadeOut();
         // 让索引对应的图片显示出来
-        if (!obj) {
-            currentOl.eq(index).stop().fadeIn().obj;
-        } else {
-            currentOl.eq(index).stop().fadeIn()
-        }
+        currentOl.eq(index).fadeIn()
     })
 
 }
 
 /**
  * tab切换
- * @param {string} element 
- * @param {string} child 
- * @param {string} classname
- * @param {obj} object
- * @param {time} number
+ * @param {string} element 传入jQuery对象
+ * @param {string} child  传入对tab对应的内容
+ * @param {string} classname 传入类名
+ * @param {obj} object 传入css属性,没有则为null
+ * @param {time} number 动画时间(默认300)
  */
 
-function tabToggle(element, child, classname,obj,time) {
+function tabToggle(element, child, classname, obj, time) {
     // 获取元素
     let el = $(element);
     let cld = $(child);
@@ -66,6 +64,10 @@ function tabToggle(element, child, classname,obj,time) {
         // 让其他元素淡出
         cld.stop().fadeOut(time);
         // 让索引对应的元素淡入
-        cld.eq(index).fadeIn(time).css(obj);
+        if (!obj) {
+            cld.eq(index).stop().fadeIn()
+        } else {
+            cld.eq(index).fadeIn(time).css(obj);
+        }
     })
 }

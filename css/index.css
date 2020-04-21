@@ -865,4 +865,149 @@ nav ul a {
   font-size: 14px;
   color: #999999;
 }
+
+.cloud .cloud-bd {
+  padding-top: 16px;
+  background-image: url(../images/bg-shadow.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 100%;
+}
+
+.cloud .cloud-content {
+  padding-left: 290px;
+  position: relative;
+  max-height: 332px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cloud .cloud-plane .cloud-plane-box {
+  display: inline-block;
+  width: calc((100% - 24px * (2 - 1) - 1px)/ 2);
+  margin-left: 10px;
+  vertical-align: top;
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.cloud .cloud-plane .cloud-plane-box:hover a span:nth-child(1) {
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+  color: #00a4ff;
+}
+
+.cloud .cloud-plane .cloud-plane-box:hover {
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+  -webkit-box-shadow: 0 4px 8px rgba(3, 27, 78, 0.12);
+          box-shadow: 0 4px 8px rgba(3, 27, 78, 0.12);
+}
+
+.cloud .cloud-plane .cloud-plane-box a {
+  display: block;
+  position: relative;
+  top: 0;
+  -webkit-box-shadow: 0 2px 4px rgba(3, 27, 78, 0.06);
+          box-shadow: 0 2px 4px rgba(3, 27, 78, 0.06);
+  border: 1px solid #E5E8ED;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.cloud .cloud-plane .cloud-plane-box .cloud-plane-title {
+  position: relative;
+  width: 100%;
+  height: 28px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.cloud .cloud-plane .cloud-plane-box .cloud-plane-title span:nth-child(1) {
+  display: inline-block;
+  font-size: 18px;
+  color: #000;
+  line-height: 28px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.cloud .cloud-plane .cloud-plane-box .cloud-plane-title span:last-child {
+  position: absolute;
+  right: 0;
+  top: 3px;
+}
+
+.cloud .cloud-plane .cloud-plane-box .cloud-plane-title span:last-child i {
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #e5e8ed;
+  line-height: 20px;
+  text-align: center;
+  padding: 0 8px;
+  font-size: 12px;
+  color: #999;
+}
+
+.cloud .cloud-plane .cloud-plane-box .cloud-plane-content {
+  width: 100%;
+  font-size: 14px;
+  color: #666;
+  line-height: 24px;
+  height: 48px;
+  overflow: hidden;
+  max-height: 48px;
+  word-wrap: break-word;
+  margin: 0;
+  margin-top: 4px;
+}
+
+.cloud .cloud-plane .cloud-plane-box .cloud-plane-price {
+  margin: 0;
+  margin-top: 6px;
+  position: relative;
+  color: #FF7800;
+  font-size: 24px;
+  line-height: 32px;
+  height: 32px;
+}
+
+.cloud .cloud-plane-slider {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 290px;
+  height: 332px;
+  background-color: #eee;
+  background-size: cover;
+  border: 1px solid #E5E8ED;
+  -webkit-box-shadow: 0 2px 4px rgba(3, 27, 78, 0.06);
+          box-shadow: 0 2px 4px rgba(3, 27, 78, 0.06);
+  background-image: url(../images/cloud-slider-bg.png);
+}
+
+.cloud .cloud-plane-slider-content {
+  padding: 20px;
+}
+
+.cloud .cloud-plane-slider-content div:last-child {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #666;
+}
+
+.cloud .cloud-slider-title {
+  font-size: 24px;
+  line-height: 32px;
+  color: #333;
+  height: 32px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 /*# sourceMappingURL=index.css.map */
