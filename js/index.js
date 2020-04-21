@@ -2,7 +2,9 @@ $(document).ready(function () {
     /* 轮播图部分 */
     banner();
     // tab切换
-    tabToggle($('.jieshao-tab>ul>li'), $('.jieshao-content>.jieshao-item'),'sel');
+    tabToggle($('.jieshao-tab>ul>li'), $('.jieshao-content>.jieshao-item'),'sel',{'display':'flex'});
+    // 解决方案tab切换
+    tabToggle($('.program-bar ul>li'),$('.program-left>.program-itme'),'active',500);
 })
 
 
@@ -30,7 +32,11 @@ function banner() {
         // 让其他元素变为透明
         currentOl.stop().fadeOut();
         // 让索引对应的图片显示出来
-        currentOl.eq(index).stop().fadeIn();
+        if (!obj) {
+            currentOl.eq(index).stop().fadeIn().obj;
+        } else {
+            currentOl.eq(index).stop().fadeIn()
+        }
     })
 
 }
@@ -40,13 +46,15 @@ function banner() {
  * @param {string} element 
  * @param {string} child 
  * @param {string} classname
+ * @param {obj} object
+ * @param {time} number
  */
 
-function tabToggle(element, child, classname) {
+function tabToggle(element, child, classname,obj,time) {
     // 获取元素
     let el = $(element);
     let cld = $(child);
-
+    time == undefined ? 300 : time;
     // 绑定事件
     el.on('click', function () {
         // 获取当前元素的索引
@@ -56,8 +64,8 @@ function tabToggle(element, child, classname) {
         // 给当前元素添加类名
         $(this).addClass(classname);
         // 让其他元素淡出
-        cld.stop().fadeOut();
+        cld.stop().fadeOut(time);
         // 让索引对应的元素淡入
-        cld.eq(index).fadeIn().css('display', 'flex');
+        cld.eq(index).fadeIn(time).css(obj);
     })
 }

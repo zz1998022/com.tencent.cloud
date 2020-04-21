@@ -491,6 +491,7 @@ nav {
     .jieshao-content {
         .jieshao-item {
             display: none;
+
             ul {
                 flex: 1;
 
@@ -537,6 +538,257 @@ nav {
                     }
                 }
             }
+        }
+    }
+}
+
+// 免费试用部分
+.free-try {
+    position: relative;
+    padding: 36px 10px;
+    background-color: #00A4FF;
+    background-image: linear-gradient(227deg, #00A4FF 0, #006EFF 88%);
+    background-size: auto 100%;
+    text-align: center;
+
+    span {
+        font-size: 16px;
+        color: #fff;
+        line-height: 26px;
+
+        i {
+            font-size: 24px;
+            margin: 0 2px;
+            font-weight: 700;
+        }
+    }
+
+    a {
+        display: inline-block;
+        width: 136px;
+        height: 40px;
+        border: 1px solid #99d2ff;
+        vertical-align: middle;
+        line-height: 40px;
+        margin-left: 30px;
+        color: #fff;
+        font-size: 14px;
+        border-radius: 2px;
+        transition: all .5s;
+    }
+
+    a:hover {
+        background-color: #fff;
+        color: #52a4ff;
+        border-color: #fff;
+        transition: all .5s;
+    }
+}
+
+// 解决方案部分
+.program {
+    position: relative;
+    height: 621px;
+    padding: 60px 10px;
+    box-sizing: border-box;
+    background-image: url('../images/pro-01.jpg');
+
+    .container {
+        position: relative;
+    }
+
+    .program-title {
+        text-align: center;
+        margin-bottom: 40px;
+
+        h3 {
+            font-size: 32px;
+            line-height: 48px;
+            font-weight: 400;
+            color: #fff;
+        }
+    }
+
+    .program-left {
+
+        .program-left-title {
+            color: #fff;
+            font-size: 24px;
+            line-height: 32px;
+            height: 32px;
+            margin-bottom: 8px;
+            overflow: hidden;
+            word-wrap: break-word;
+
+            h3 {
+                font-weight: 400;
+            }
+        }
+
+        .program-left-jieshao {
+            font-size: 14px;
+            color: rgba(255, 255, 255, .6);
+            line-height: 24px;
+            margin-bottom: 28px;
+        }
+
+        .program-left-content {
+            padding-top: 20px;
+            padding-right: 400px;
+            box-sizing: border-box;
+        }
+
+        .program-left-neirong {
+            font-size: 14px;
+            color: #F5F7FA;
+            line-height: 24px;
+            display: -webkit-box;
+            line-clamp: 3;
+            overflow: hidden;
+            height: 72px;
+            word-wrap: break-word;
+        }
+
+        .program-button {
+            margin-top: 32px;
+
+
+            a {
+                display: inline-block;
+                width: 90px;
+                height: 40px;
+                background-color: #00a4ff;
+                color: #fff;
+                text-align: center;
+                line-height: 40px;
+                font-size: 14px;
+                border-radius: 2px;
+            }
+        }
+
+        .program-logo {
+            margin-top: 40px;
+
+            div {
+                display: inline-block;
+                max-width: 140px;
+                margin-right: 40px;
+            }
+
+            a {
+                display: inline-block;
+                height: 45px;
+                line-height: 45px;
+            }
+
+            img {
+                max-width: 100%;
+                max-height: 100%;
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }
+    }
+
+    .program-bar {
+
+        position: absolute;
+        right: 0;
+        top: 100px;
+        display: table-cell;
+        width: 220px;
+        vertical-align: top;
+
+        li {
+            position: relative;
+            border-radius: 2px;
+            margin-top: 8px;
+
+            &:first-child {
+                margin-top: 0;
+            }
+
+            &:nth-last-child(2) {
+                border-bottom: 1px solid #363944;
+            }
+        }
+
+        li.active {
+            background-color: rgba(255, 255, 255, .1);
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            height: 36px;
+            overflow: hidden;
+            color: #fff;
+            line-height: 36px;
+            padding: 0 20px;
+            font-size: 16px;
+        }
+    }
+
+    .program-itme {
+        position: absolute;
+        display: none;
+    }
+
+    .program-sanjiao {
+        position: absolute;
+        bottom: -65px;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        z-index: 10;
+
+
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            clip-path: polygon(0 0, 70% 30%, 0 100%);
+            background-color: #F5F7FA;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            clip-path: polygon(100% 40%, 100% 80%, 35% 16%);
+            background-color: #DCDFE8;
+        }
+    }
+}
+
+// 云市场
+.cloud {
+    position: relative;
+    background-color: #fff;
+    padding: 60px 10px;
+
+    .cloud-title {
+        margin-bottom: 60px;
+        text-align: center;
+
+        h3 {
+            font-size: 32px;
+            line-height: 48px;
+            color: #000;
+            font-weight: 400;
+        }
+
+        div {
+            margin-top: 10px;
+            font-size: 16px;
+            line-height: 26px;
+            color: #666;
         }
     }
 }
