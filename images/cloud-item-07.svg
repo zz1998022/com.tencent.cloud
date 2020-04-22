@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 46 46" style="enable-background:new 0 0 46 46;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#334966;}
+	.st1{fill:#00A4FF;}
+</style>
+<title>机器学习-48x48-01</title>
+<desc>Created with Sketch.</desc>
+<path id="Shape" class="st0" d="M23,0C10.3,0,0,10.3,0,23s10.3,23,23,23s23-10.3,23-23S35.7,0,23,0 M23,2c11.6,0,21,9.4,21,21
+	s-9.4,21-21,21S2,34.6,2,23S11.4,2,23,2"/>
+<path id="Shape_1_" class="st0" d="M8.6,16c2.6-5.3,8.1-9,14.4-9s11.8,3.7,14.4,9h2.2C36.9,9.5,30.5,5,23,5S9.1,9.5,6.4,16H8.6z
+	 M37.8,29c-2.4,5.9-8.1,10-14.8,10S10.6,34.9,8.2,29H6c2.5,7,9.1,12,17,12c7.8,0,14.5-5,17-12H37.8z"/>
+<g>
+	<path class="st1" d="M25,20h-1.1v3l1.1,0c1.4,0,2-0.5,2-1.5C27,20.5,26.3,20,25,20z"/>
+	<polygon class="st1" points="16.1,24 19,24 17.6,19.8 	"/>
+	<path class="st1" d="M23,11c-6.6,0-12,5.4-12,12c0,6.6,5.4,12,12,12s12-5.4,12-12C35,16.4,29.6,11,23,11z M20.1,27l-0.8-2.1h-3.6
+		L15,27h-1.2l3-8h1.3l3,8H20.1z M25,24l-1.2,0v3h-1.1v-8h1.9c1.2,0,2,0.2,2.5,0.6s0.8,1,0.8,1.9C28.1,23.2,27.1,24,25,24z M31.1,27
+		h-1.1v-8h1.1V27z"/>
+</g>
+</svg>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-35" transform="translate(0.000000, 4.000000)" fill-rule="nonzero">
+            <g id="Combined-Shape" fill="#334966">
+                <path d="M46,15.165 L46,2 L2,2 L2,38 L25.275,38 C26.0799328,38.7892476 26.9984363,39.4536038 28,39.971 L28,40 L0,40 L0,0 L48,0 L48,15.479 C47.3273333,15.4036667 46.6606667,15.299 46,15.165 Z" id="Shape"></path>
+            </g>
+            <path d="M37.0123333,17.354 L36.3333333,17 L35.6543333,17.353 C32.7431623,18.8656177 29.5876831,19.8521069 26.3333333,20.267 L26.3333333,30.137 C26.3598873,32.4040308 27.6687006,34.4602392 29.7113333,35.444 L36.3333333,38.755 L42.9553333,35.444 C44.9976459,34.4603989 46.3064015,32.4046686 46.3333333,30.138 L46.3333333,20.268 C43.0789835,19.8531069 39.9235043,18.8666177 37.0123333,17.354 Z M36.9903333,29.943 L35.5763333,31.357 L34.1623333,29.943 L31.3333333,27.115 L32.7483333,25.701 L35.5763333,28.529 L40.2333333,23.873 L41.6483333,25.287 L36.9903333,29.943 Z" id="Shape" fill="#00A4FF"></path>
+            <path d="M37,40 L29.931,36.466 C27.5462124,35.3168081 26.0218244,32.9121451 26,30.265 L26,19.515 L26.873,19.403 C30.0107701,19.0049355 33.053155,18.053894 35.859,16.594 L37,16 L38.141,16.593 C40.94669,18.0534569 43.9891173,19.0048503 47.127,19.403 L48,19.515 L48,30.265 C47.977796,32.9117833 46.453466,35.315967 44.069,36.465 L37,40 Z M28,21.261 L28,30.261 C28.024823,32.1495852 29.120105,33.8601636 30.825,34.673 L37,37.764 L43.175,34.677 C44.879895,33.8641636 45.975177,32.1535852 46,30.265 L46,21.265 C42.9353596,20.7818712 39.9694589,19.8044951 37.218,18.371 L37,18.254 L36.783,18.367 C34.0310167,19.8000911 31.0648546,20.777442 28,21.261 Z" id="Shape" fill="#334966"></path>
+            <g id="Rectangle" transform="translate(0.000000, 8.000000)" fill="#334966">
+                <rect id="Rectangle-path" x="0" y="0" width="48" height="2"></rect>
+            </g>
+            <g id="Rectangle-2" transform="translate(38.000000, 4.000000)" fill="#334966">
+                <rect id="Rectangle-path" x="0" y="0" width="2" height="2"></rect>
+            </g>
+            <g id="Rectangle-2-Copy-2" transform="translate(34.000000, 4.000000)" fill="#334966">
+                <rect id="Rectangle-path" x="0" y="0" width="2" height="2"></rect>
+            </g>
+            <g id="Rectangle-2-Copy" transform="translate(42.000000, 4.000000)" fill="#334966">
+                <rect id="Rectangle-path" x="0" y="0" width="2" height="2"></rect>
+            </g>
+            <g id="Rectangle-4" transform="translate(7.000000, 17.000000)" fill="#00A4FF">
+                <rect id="Rectangle-path" x="0" y="0" width="12" height="2"></rect>
+            </g>
+            <g id="Rectangle-4-Copy" transform="translate(7.000000, 23.000000)" fill="#00A4FF">
+                <rect id="Rectangle-path" x="0" y="0" width="12" height="2"></rect>
+            </g>
+            <g id="Rectangle-4-Copy-2" transform="translate(7.000000, 29.000000)" fill="#00A4FF">
+                <rect id="Rectangle-path" x="0" y="0" width="12" height="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

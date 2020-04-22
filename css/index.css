@@ -785,7 +785,14 @@ nav ul a {
 .cloud {
   position: relative;
   background-color: #fff;
+  height: 998px;
   padding: 60px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cloud .container {
+  position: relative;
 }
 
 .cloud .cloud-title {
@@ -880,6 +887,10 @@ nav ul a {
   max-height: 332px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.cloud .cloud-plane {
+  min-height: 332px;
 }
 
 .cloud .cloud-plane .cloud-plane-box {
@@ -1009,5 +1020,133 @@ nav ul a {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.cloud .cloud-plane-item {
+  display: none;
+  position: absolute;
+  opacity: 0;
+}
+
+.cloud .cloud-plane-bar-item {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.cloud .cloud-hezuo {
+  margin-top: 60px;
+}
+
+.cloud .cloud-hezuo-title {
+  text-align: center;
+}
+
+.cloud .cloud-hezuo-title span {
+  font-size: 16px;
+  line-height: 36px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cloud .cloud-hezuo-title span i {
+  margin-left: 4px;
+  margin-right: 4px;
+  color: #00A4FF;
+  font-size: 24px;
+  font-weight: 600;
+  vertical-align: -2px;
+}
+
+.cloud .cloud-hezuo-list {
+  margin-top: 24px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.cloud .cloud-hezuo-content {
+  margin-left: -20px;
+  margin-right: -20px;
+  text-align: center;
+}
+
+.cloud .cloud-hezuo-item {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 174px;
+}
+
+.cloud .cloud-hezuo-item a {
+  display: inline-block;
+  width: 128px;
+  height: 126px;
+  border-radius: 2px;
+  padding: 16px 0;
+  border: 1px solid transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cloud .cloud-hezuo-item a:hover {
+  background: #FFF;
+  border-color: rgba(229, 232, 237, 0.3);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(3, 27, 78, 0.12);
+          box-shadow: 0 4px 8px 0 rgba(3, 27, 78, 0.12);
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+.cloud .cloud-hezuo-item a:hover span {
+  color: #00a4ff;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+.cloud .cloud-hezuo-item a div {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+}
+
+.cloud .cloud-hezuo-item a div img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.cloud .cloud-hezuo-item a span {
+  display: block;
+  font-size: 16px;
+  color: #000;
+  line-height: 26px;
+  height: 26px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 14px;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+.cloud .cloud-link {
+  text-align: center;
+}
+
+.cloud .cloud-link a {
+  color: #00a4ff;
+  font-size: 14px;
+}
+
+.cloud .cloud-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 874px;
 }
 /*# sourceMappingURL=index.css.map */

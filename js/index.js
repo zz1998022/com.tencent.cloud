@@ -6,9 +6,14 @@ $(document).ready(function () {
         'display': 'flex'
     });
     // 解决方案tab切换
-    tabToggle($('.program-bar ul>li'), $('.program-left>.program-itme'), 'active',null, 500);
+    tabToggle($('.program-bar ul>li'), $('.program-left>.program-itme'), 'active', null, 500);
+
+    // 云市场tab切换
+    cloudTab();
 })
 
+
+let temp = 0; // 初始化临时变量
 
 // 轮播图部分
 function banner() {
@@ -68,6 +73,48 @@ function tabToggle(element, child, classname, obj, time) {
             cld.eq(index).stop().fadeIn()
         } else {
             cld.eq(index).fadeIn(time).css(obj);
+        }
+    })
+}
+
+// 云市场tab切换
+function cloudTab() {
+    // 获取元素
+    let cloudShowBar = $('.cloud-show-bar ul>li');
+    let cloudContentItem = $('.cloud-plane-item');
+    let cloudLeftBar = $('.cloud-plane-bar-item');
+
+    // 绑定事件
+    cloudShowBar.on('click', function () {
+        // 获取当前被点击的索引
+        let index = $(this).index();
+        // 判断当前点击的元素索引是不是和index一样,如果一样,那么就不做动画
+        if (temp !== index) {
+            // 移出其他元素的类名
+            cloudShowBar.removeClass('active');
+            // 给当前被点击的元素添加类名
+            $(this).addClass('active');
+            // 让元素变透明
+            cloudContentItem.stop().animate({
+                opacity: 0
+            }, 300, function () {
+                $(this).css('display', 'none')
+                // 让对应的元素显示出来
+                cloudContentItem.eq(index).css('display', 'block').animate({
+                    opacity: 1
+                }, 300);
+            })
+
+            cloudLeftBar.stop().animate({
+                opacity: 0
+            }, 300, function () {
+                $(this).css('display', 'none')
+                // 让对应的元素显示出来
+                cloudLeftBar.eq(index).css('display', 'block').animate({
+                    opacity: 1
+                }, 300);
+            })
+            temp = index;
         }
     })
 }

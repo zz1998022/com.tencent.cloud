@@ -771,7 +771,13 @@ nav {
 .cloud {
     position: relative;
     background-color: #fff;
+    height: 998px;
     padding: 60px 10px;
+    box-sizing: border-box;
+
+    .container {
+        position: relative;
+    }
 
     .cloud-title {
         margin-bottom: 60px;
@@ -863,6 +869,8 @@ nav {
     }
 
     .cloud-plane {
+        min-height: 332px;
+
         .cloud-plane-box {
             display: inline-block;
             width: calc((100% - 24px * (2 - 1) - 1px)/ 2);
@@ -986,5 +994,129 @@ nav {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+    }
+
+    .cloud-plane-item {
+        display: none;
+        position: absolute;
+        opacity: 0;
+    }
+
+    .cloud-plane-bar-item {
+        // 隐藏所有的bar
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+    }
+
+    // 云市场合作
+    .cloud-hezuo {
+        margin-top: 60px;
+    }
+
+    .cloud-hezuo-title {
+        text-align: center;
+
+        span {
+            font-size: 16px;
+            line-height: 36px;
+            box-sizing: border-box;
+
+            i {
+                margin-left: 4px;
+                margin-right: 4px;
+                color: #00A4FF;
+                font-size: 24px;
+                font-weight: 600;
+                vertical-align: -2px;
+            }
+        }
+    }
+
+    .cloud-hezuo-list {
+        margin-top: 24px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .cloud-hezuo-content {
+        margin-left: -20px;
+        margin-right: -20px;
+        text-align: center;
+    }
+
+    .cloud-hezuo-item {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 20px;
+        width: 174px;
+
+        a {
+            display: inline-block;
+            width: 128px;
+            height: 126px;
+            border-radius: 2px;
+            padding: 16px 0;
+            border: 1px solid transparent;
+            box-sizing: border-box;
+
+            &:hover {
+                background: #FFF;
+                border-color: rgba(229, 232, 237, .3);
+                box-shadow: 0 4px 8px 0 rgba(3, 27, 78, .12);
+                transition: all .2s linear;
+            }
+
+            &:hover span {
+                color: #00a4ff;
+                transition: all .2s linear;
+            }
+
+            div {
+                display: inline-block;
+                width: 48px;
+                height: 48px;
+
+                img {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            span {
+                display: block;
+                font-size: 16px;
+                color: #000;
+                line-height: 26px;
+                height: 26px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                margin-top: 14px;
+                transition: all .2s linear;
+            }
+        }
+    }
+
+    .cloud-link {
+        text-align: center;
+
+        a {
+            color: #00a4ff;
+            font-size: 14px;
+        }
+    }
+
+    .cloud-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 874px;
     }
 }
