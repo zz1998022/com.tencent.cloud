@@ -1120,3 +1120,143 @@ nav {
         height: 874px;
     }
 }
+
+// 技术生态
+.eclogy {
+    position: relative;
+    background-color: #fff;
+    padding: 60px 10px;
+    box-sizing: border-box;
+
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+
+    .eclogy-title {
+        margin-bottom: 60px;
+        text-align: center;
+        box-sizing: border-box;
+
+        h3 {
+            font-size: 32px;
+            line-height: 48px;
+            font-weight: 400;
+        }
+    }
+
+    .eclogy-list-item {
+        display: inline-block;
+        width: calc((100% - 20px * (3 - 1) - 1px)/ 3);
+        margin-right: 17px;
+        margin-bottom: 20px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    .eclogy-list-item-father {
+        display: block;
+        position: relative;
+        top: 0;
+        transition: all .2s linear;
+        box-shadow: 0 2px 4px rgba(3, 27, 78, .06);
+        border: 1px solid #E5E8ED;
+        box-sizing: border-box;
+        border-radius: 2px;
+        background-color: #fff;
+
+        &:hover {
+            box-shadow: 0 4px 8px rgba(3,27,78,.12);
+        }
+    }
+
+    .eclogy-list-item-main {
+        padding: 32px 32px 0;
+        min-height: 220px;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+
+    .eclogy-list-title {
+        font-size: 24px;
+    }
+
+    .eclogy-list-content {
+        display: block;
+        font-size: 14px;
+        color: #666;
+        line-height: 24px;
+        margin-top: 16px;
+    }
+
+    .eclogy-list-link {
+        margin-top: 18px;
+
+        span {
+            display: inline-block;
+            font-size: 14px;
+            line-height: 24px;
+            height: 24px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            width: 130px;
+            margin-bottom: 8px;
+
+            a {
+                color: #666;
+
+                &::before {
+                    content: '';
+                    width: 2px;
+                    height: 2px;
+                    background-color: #666;
+                    display: inline-block;
+                    vertical-align: 4px;
+                    margin-left: 2px;
+                    margin-right: 8px;
+                }
+            }
+        }
+    }
+
+    .eclogy-list-item-footer {
+        line-height: 48px;
+        border-top: 1px solid #E5E8ED;
+        padding: 0 30px;
+        box-sizing: border-box;
+
+        a {
+            font-size: 14px;
+            color: #00a4ff;
+
+            &::after {
+                content: '';
+                display: inline-block;
+                vertical-align: 0;
+                margin-left: 6px;
+                width: 6px;
+                height: 10px;
+                overflow: hidden;
+                background-image: url(../images//main-202002131800.svg);
+                transition: transform .4s;
+                background-repeat: no-repeat;
+                background-position: 69.34% 41.67%;
+                background-size: 4666.666666666666% 2260%
+            }
+        }
+    }
+
+    .eclogy-bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        background-image: url(../images/eclogy-bg.png);
+        background-size: cover;
+    }
+}

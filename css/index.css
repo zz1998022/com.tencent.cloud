@@ -1149,4 +1149,154 @@ nav ul a {
   width: 100%;
   height: 874px;
 }
+
+.eclogy {
+  position: relative;
+  background-color: #fff;
+  padding: 60px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.eclogy .container {
+  position: relative;
+  z-index: 2;
+}
+
+.eclogy .eclogy-title {
+  margin-bottom: 60px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.eclogy .eclogy-title h3 {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 400;
+}
+
+.eclogy .eclogy-list-item {
+  display: inline-block;
+  width: calc((100% - 20px * (3 - 1) - 1px)/ 3);
+  margin-right: 17px;
+  margin-bottom: 20px;
+}
+
+.eclogy .eclogy-list-item:last-child {
+  margin-right: 0;
+}
+
+.eclogy .eclogy-list-item-father {
+  display: block;
+  position: relative;
+  top: 0;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+  -webkit-box-shadow: 0 2px 4px rgba(3, 27, 78, 0.06);
+          box-shadow: 0 2px 4px rgba(3, 27, 78, 0.06);
+  border: 1px solid #E5E8ED;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.eclogy .eclogy-list-item-father:hover {
+  -webkit-box-shadow: 0 4px 8px rgba(3, 27, 78, 0.12);
+          box-shadow: 0 4px 8px rgba(3, 27, 78, 0.12);
+}
+
+.eclogy .eclogy-list-item-main {
+  padding: 32px 32px 0;
+  min-height: 220px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+}
+
+.eclogy .eclogy-list-title {
+  font-size: 24px;
+}
+
+.eclogy .eclogy-list-content {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  line-height: 24px;
+  margin-top: 16px;
+}
+
+.eclogy .eclogy-list-link {
+  margin-top: 18px;
+}
+
+.eclogy .eclogy-list-link span {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 24px;
+  height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 130px;
+  margin-bottom: 8px;
+}
+
+.eclogy .eclogy-list-link span a {
+  color: #666;
+}
+
+.eclogy .eclogy-list-link span a::before {
+  content: '';
+  width: 2px;
+  height: 2px;
+  background-color: #666;
+  display: inline-block;
+  vertical-align: 4px;
+  margin-left: 2px;
+  margin-right: 8px;
+}
+
+.eclogy .eclogy-list-item-footer {
+  line-height: 48px;
+  border-top: 1px solid #E5E8ED;
+  padding: 0 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.eclogy .eclogy-list-item-footer a {
+  font-size: 14px;
+  color: #00a4ff;
+}
+
+.eclogy .eclogy-list-item-footer a::after {
+  content: '';
+  display: inline-block;
+  vertical-align: 0;
+  margin-left: 6px;
+  width: 6px;
+  height: 10px;
+  overflow: hidden;
+  background-image: url(../images//main-202002131800.svg);
+  -webkit-transition: -webkit-transform .4s;
+  transition: -webkit-transform .4s;
+  transition: transform .4s;
+  transition: transform .4s, -webkit-transform .4s;
+  background-repeat: no-repeat;
+  background-position: 69.34% 41.67%;
+  background-size: 4666.666666666666% 2260%;
+}
+
+.eclogy .eclogy-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-image: url(../images/eclogy-bg.png);
+  background-size: cover;
+}
 /*# sourceMappingURL=index.css.map */
