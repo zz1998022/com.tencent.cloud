@@ -1299,4 +1299,171 @@ nav ul a {
   background-image: url(../images/eclogy-bg.png);
   background-size: cover;
 }
+
+.shangyun {
+  position: relative;
+  background-color: #fff;
+  padding: 60px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.shangyun .shangyun-title {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.shangyun .shangyun-title h3 {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 400;
+}
+
+.shangyun .shangyun-content-bar {
+  text-align: center;
+}
+
+.shangyun .shangyun-content-bar ul {
+  position: relative;
+  border-bottom: #e5e5e5 1px solid;
+  z-index: 1;
+}
+
+.shangyun .shangyun-content-bar ul li {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  padding-bottom: 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 100px;
+}
+
+.shangyun .shangyun-content-bar ul li a {
+  display: block;
+  padding: 0 30px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #00a4ff;
+}
+
+.shangyun .shangyun-content-bar ul li a::before {
+  display: none;
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
+  margin-left: -4px;
+  width: 8px;
+  height: 8px;
+  border-top: 1px solid #00a4ff;
+  border-left: 1px solid #00a4ff;
+  background-color: #F6F8FC;
+  z-index: 10;
+  -webkit-transform: rotate(405deg);
+          transform: rotate(405deg);
+}
+
+.shangyun .shangyun-content-bar ul li a::after {
+  display: none;
+  content: "";
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #00a4ff;
+  z-index: 1;
+  -webkit-transition: width .5s;
+  transition: width .5s;
+}
+
+.shangyun .shangyun-content-bd {
+  padding-top: 24px;
+}
+
+.shangyun .shangyun-content-logo-bd {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 14px;
+  width: calc((100% - 20px * (6 - 1) - 1px)/ 6);
+  margin-bottom: 20px;
+}
+
+.shangyun .shangyun-content-logo-bd img {
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.shangyun .shangyun-content-item {
+  display: none;
+  opacity: 0;
+}
+
+.shangyun .shangyun-content-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.shangyun .shangyun-content-link a {
+  font-size: 14px;
+  color: #00a4ff;
+}
+
+.shangyun .shangyun-content-link a::after {
+  content: '';
+  display: inline-block;
+  vertical-align: 0;
+  margin-left: 6px;
+  width: 6px;
+  height: 10px;
+  overflow: hidden;
+  background-image: url(../images/main-202002131800.svg);
+  -webkit-transition: -webkit-transform .4s;
+  transition: -webkit-transform .4s;
+  transition: transform .4s;
+  transition: transform .4s, -webkit-transform .4s;
+  background-repeat: no-repeat;
+  background-position: 69.34% 41.67%;
+  background-size: 4666.666666666666% 2260;
+}
+
+.shangyun .shangyun-content-bar li.active a::before {
+  display: block;
+}
+
+.shangyun .shangyun-content-bar li.active a::after {
+  display: inline-block;
+  -webkit-transition: width .5s;
+  transition: width .5s;
+}
+
+.map {
+  background-color: #182030;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #182030), color-stop(97%, #0A101B));
+  background-image: linear-gradient(180deg, #182030 1%, #0A101B 97%);
+  padding: 60px 10px;
+}
+
+.map .map-hd {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.map .map-hd h3 {
+  font-size: 32px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.map .map-hd div {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+}
 /*# sourceMappingURL=index.css.map */

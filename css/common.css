@@ -13,3 +13,7 @@
 .clearfix::after {
     clear: both;
 }
+
+* {
+    box-sizing: border-box;
+}

@@ -1168,7 +1168,7 @@ nav {
         background-color: #fff;
 
         &:hover {
-            box-shadow: 0 4px 8px rgba(3,27,78,.12);
+            box-shadow: 0 4px 8px rgba(3, 27, 78, .12);
         }
     }
 
@@ -1258,5 +1258,166 @@ nav {
         z-index: 1;
         background-image: url(../images/eclogy-bg.png);
         background-size: cover;
+    }
+}
+
+// 成功上云
+.shangyun {
+    position: relative;
+    background-color: #fff;
+    padding: 60px 10px;
+    box-sizing: border-box;
+
+    .shangyun-title {
+        margin-bottom: 60px;
+        text-align: center;
+
+        h3 {
+            font-size: 32px;
+            line-height: 48px;
+            font-weight: 400;
+        }
+    }
+
+    .shangyun-content-bar {
+        text-align: center;
+
+        ul {
+            position: relative;
+            border-bottom: #e5e5e5 1px solid;
+            z-index: 1;
+
+            li {
+                display: inline-block;
+                text-align: center;
+                position: relative;
+                cursor: pointer;
+                padding-bottom: 12px;
+                box-sizing: border-box;
+                margin: 0 100px;
+
+                a {
+                    display: block;
+                    padding: 0 30px;
+                    font-size: 18px;
+                    line-height: 28px;
+                    color: #00a4ff;
+
+                    &::before {
+                        display: none;
+                        content: '';
+                        position: absolute;
+                        left: 50%;
+                        bottom: -4px;
+                        margin-left: -4px;
+                        width: 8px;
+                        height: 8px;
+                        border-top: 1px solid #00a4ff;
+                        border-left: 1px solid #00a4ff;
+                        background-color: #F6F8FC;
+                        z-index: 10;
+                        transform: rotate(405deg);
+                    }
+
+                    &::after {
+                        display: none;
+                        content: "";
+                        height: 1px;
+                        width: 100%;
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background: #00a4ff;
+                        z-index: 1;
+                        transition: width .5s;
+                    }
+                }
+            }
+        }
+    }
+
+    .shangyun-content-bd {
+        padding-top: 24px;
+    }
+
+    .shangyun-content-logo-bd {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 14px;
+        width: calc((100% - 20px * (6 - 1) - 1px)/ 6);
+        margin-bottom: 20px;
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+
+    .shangyun-content-item {
+        display: none;
+        opacity: 0;
+    }
+
+    .shangyun-content-link {
+        margin-top: 20px;
+        text-align: center;
+
+        a {
+            font-size: 14px;
+            color: #00a4ff;
+
+            &::after {
+                content: '';
+                display: inline-block;
+                vertical-align: 0;
+                margin-left: 6px;
+                width: 6px;
+                height: 10px;
+                overflow: hidden;
+                background-image: url(../images/main-202002131800.svg);
+                transition: transform .4s;
+                background-repeat: no-repeat;
+                background-position: 69.34% 41.67%;
+                background-size: 4666.666666666666% 2260
+            }
+        }
+    }
+
+    // 隐藏伪元素
+    .shangyun-content-bar li.active a::before {
+        display: block;
+    }
+
+    .shangyun-content-bar li.active a::after {
+        display: inline-block;
+        transition: width .5s;
+    }
+}
+
+// 腾讯云数据中心
+.map {
+    background-color: #182030;
+    background-image: linear-gradient(180deg,#182030 1%,#0A101B 97%);
+    padding: 60px 10px;
+
+    .map-hd {
+        margin-bottom: 60px;
+        text-align: center;
+
+        h3 {
+            font-size: 32px;
+            color: #fff;
+            font-weight: 400;
+        }
+
+        div {
+            margin-top: 10px;
+            font-size: 16px;
+            line-height: 26px;
+            color: #fff;
+        }
     }
 }

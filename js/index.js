@@ -10,6 +10,9 @@ $(document).ready(function () {
 
     // 云市场tab切换
     cloudTab();
+
+    // 上云tab切换
+    shangyunTab();
 })
 
 
@@ -115,6 +118,39 @@ function cloudTab() {
                 }, 300);
             })
             temp = index;
+        }
+    })
+}
+
+// 用户上云tab切换
+
+// 给DOM对象添加属性
+document.querySelector('.shangyun-content-item').temp = 0;
+
+function shangyunTab() {
+
+    // 获取元素
+    let syLi = $('.shangyun-content-bar ul>li');
+    let syItem = $('.shangyun-content-item');
+    // 绑定事件
+    syLi.on('click', function () {
+        // 获取被点击元素的索引
+        let index = $(this).index();
+        if (document.querySelector('.shangyun-content-item').temp !== index) {
+            syItem.animate({
+                opacity: 0
+            }, 300, function () {
+                // 让元素隐藏
+                syItem.hide();
+                // 移出其他元素的类名
+                syLi.removeClass('active');
+                // 让对应的元素显示出来
+                syItem.eq(index).show().animate({
+                    opacity: 1
+                })
+                syLi.eq(index).addClass('active');
+                document.querySelector('.shangyun-content-item').temp = index;
+            });
         }
     })
 }
