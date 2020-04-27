@@ -1437,7 +1437,7 @@ nav {
 .map {
     background-color: #182030;
     background-image: linear-gradient(180deg, #182030 1%, #0A101B 97%);
-    padding: 60px 10px;
+    padding: 100px 10px;
 
     .map-hd {
         margin-bottom: 60px;
@@ -1732,6 +1732,291 @@ nav {
                 background-repeat: no-repeat;
                 background-position: 69.34% 41.67%;
                 background-size: 4666.666666666666% 2260%;
+            }
+        }
+    }
+}
+
+// 安全的云服务
+.anquan {
+
+    position: relative;
+    background-color: #fff;
+    padding: 60px 10px;
+
+    .anquan-zhuanjia {
+        position: relative;
+        z-index: 10;
+        margin: -120px auto 0;
+        max-width: 1200px;
+        padding: 0 10px;
+    }
+
+    .anquan-zhuanjia-content {
+        position: relative;
+        padding: 26px 36px;
+        border-radius: 2px;
+        border: 1px solid #e5e8ed;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+        background-color: #fff;
+    }
+
+    .anquan-zhuanjia-ceil {
+        display: inline-block;
+        margin-right: 38px;
+        width: calc((100% - 80px * (2 - 1) - 1px)/ 2);
+
+        div {
+            text-align: center;
+            font-size: 14px;
+
+            a {
+                position: relative;
+
+                &:hover h4 {
+                    color: #00a4ff;
+                    transition: all .3s;
+                }
+
+                &:hover h4::after {
+                    margin-right: -3px;
+                    transition: all .3s;
+                }
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                right: -40px;
+                top: 50%;
+                width: 1px;
+                background-color: #55ee55;
+                height: 90px;
+                margin-top: -45px;
+            }
+
+            h4 {
+                font-size: 18px;
+                line-height: 28px;
+                font-weight: 400;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                color: #000;
+
+                &::after {
+                    content: "";
+                    display: inline-block;
+                    vertical-align: 0;
+                    margin-left: 6px;
+                    width: 6px;
+                    height: 10px;
+                    overflow: hidden;
+                    background-image: url(../images/main-202002131800.svg);
+                    background-position: 75.18% 41.67%;
+                    background-size: 4666.666666666666% 2260%;
+                    background-repeat: no-repeat;
+                }
+            }
+
+            p {
+                margin-top: 15px;
+                color: #666;
+                font-size: 14px;
+                line-height: 24px;
+                overflow: hidden;
+                max-height: 48px;
+                word-wrap: break-word;
+            }
+        }
+    }
+
+    .anquan-head {
+        margin-bottom: 40px;
+        text-align: center;
+
+        h3 {
+            margin-top: 60px;
+            font-size: 30px;
+            color: #333;
+            font-weight: 400;
+            line-height: 1.4;
+        }
+
+        div {
+            position: relative;
+            margin-top: 32px;
+            text-align: center;
+            font-size: 16px;
+            color: #666;
+            margin: 20px 0 0;
+            line-height: 1.4;
+
+            &:after {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 1px;
+                overflow: hidden;
+                background-color: #5e5e5e;
+                background-image: linear-gradient(to right, #fff, #e4e4e4, #fff, #e4e4e4, #fff);
+                top: 50%;
+                left: 0;
+            }
+
+            span {
+                display: inline-block;
+                background-color: #fff;
+                position: relative;
+                z-index: 5;
+                padding: 0 40px;
+                font-size: 14px;
+                color: #999;
+
+            }
+        }
+    }
+
+    .anquan-bd-pc {
+        padding-top: 5px;
+
+        li {
+            display: inline-block;
+            width: 12.5%;
+            text-align: center;
+            vertical-align: top;
+        }
+
+
+        a {
+            display: block;
+
+            &:hover {
+                color: #00a4ff;
+            }
+
+            .anquan-icon {
+                display: inline-block;
+                vertical-align: middle;
+                width: 60px;
+                height: 60px;
+
+                img {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            h4 {
+                font-size: 14px;
+                color: #666;
+                margin-top: 12px;
+                font-weight: 400;
+                height: 18px;
+                line-height: 18px;
+                overflow: hidden;
+                word-wrap: break-word;
+            }
+        }
+    }
+}
+
+// 开始体验免费套餐
+.freeStart {
+
+    .freeStart-bg {
+        position: relative;
+        padding: 40px 10px;
+        min-height: 218px;
+        text-align: center;
+        background-size: auto 100%;
+        background-color: #00A4FF;
+        background-image: url(../images/bg2.jpg);
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 48px;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    p {
+        margin-top: 8px;
+        font-size: 16px;
+        line-height: 26px;
+        color: #fff;
+
+        a {
+            color: #fff;
+            font-weight: 600;
+        }
+    }
+
+    .freeStart-bd {
+        margin-top: 32px;
+
+        a {
+            display: inline-block;
+            min-width: 160px;
+            height: 44px;
+            line-height: 42px;
+            font-size: 16px;
+            border-radius: 2px;
+            border: 1px solid;
+            color: #fff;
+            border-color: rgba(255, 255, 255, .6);
+
+            &:hover {
+                background-color: #fff;
+                color: #00b8ff;
+                transition: all .3s;
+            }
+        }
+
+    }
+}
+
+// 页脚
+footer {
+    background-color: #2e3033;
+
+    .fot-service {
+
+        .container {
+            padding: 30px 0;
+            border-bottom: 1px solid #45484c;
+        }
+
+        ul {
+            display: table;
+            width: 100%;
+        }
+
+        li {
+            display: table-cell;
+            width: 21.5%;
+            vertical-align: top;
+            text-align: left;
+            white-space: nowrap;
+
+            a {
+                display: block;
+                font-size: 14px;
+                color: #fff;
+
+                .icon {
+                    display: inline-block;
+                    width: 32px;
+                    height: 32px;
+                    vertical-align: middle;
+                    margin-right: 10px;
+                    background-image: url(../images/base-202004231022.svg);
+                    background-size: 718.75% 709.375%;
+                    background-repeat: no-repeat;
+                }
+
             }
         }
     }
