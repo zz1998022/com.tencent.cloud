@@ -1854,10 +1854,11 @@ nav ul a {
 .anquan .anquan-zhuanjia-ceil div::after {
   content: "";
   position: absolute;
-  right: -40px;
+  left: 50%;
   top: 50%;
+  margin-left: -15px;
   width: 1px;
-  background-color: #55ee55;
+  background-color: #e5e5e5;
   height: 90px;
   margin-top: -45px;
 }
@@ -2074,5 +2075,316 @@ footer .fot-service li a .icon {
   background-image: url(../images/base-202004231022.svg);
   background-size: 718.75% 709.375%;
   background-repeat: no-repeat;
+}
+
+footer .fot-website .container {
+  position: relative;
+  padding-bottom: 27px;
+  min-height: 200px;
+  padding: 30px 0;
+  border-bottom: 1px solid #45484c;
+}
+
+footer .fot-website .fot-website-list {
+  margin-right: 190px;
+}
+
+footer .fot-website .fot-website-list > li {
+  display: inline-block;
+  font-size: 14px;
+  padding: 0 10px;
+  vertical-align: top;
+  width: 19%;
+}
+
+footer .fot-website .fot-website-content h3 {
+  margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #fff;
+}
+
+footer .fot-website .fot-website-content h3 a {
+  display: block;
+  color: #fff;
+  cursor: default;
+}
+
+footer .fot-website .fot-website-content ul li {
+  display: block;
+  padding: 0;
+}
+
+footer .fot-website .fot-website-content ul a {
+  display: block;
+  padding: 4px 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+footer .fot-website .fot-website-content ul a:hover {
+  color: #00a4ff;
+}
+
+footer .fot-cpy {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  width: 190px;
+}
+
+footer .fot-cpy ul {
+  margin-bottom: 24px;
+}
+
+footer .fot-cpy ul li {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20%;
+}
+
+footer .fot-cpy li {
+  position: relative;
+}
+
+footer .fot-cpy li a {
+  display: block;
+}
+
+footer .fot-cpy li a i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/base-202004231022.svg);
+  background-position: 67.75999999999999% 92.89%;
+  background-size: 1437.5% 1418.75%;
+  background-repeat: no-repeat;
+}
+
+footer .fot-cpy-text {
+  margin-bottom: 14px;
+  font-size: 12px;
+  line-height: 24px;
+  color: #ccc;
+}
+
+footer .fot-cpy-text span {
+  display: block;
+}
+
+footer .fot-cpy-phone a {
+  display: inline-block;
+  width: 100%;
+  padding: 0 8px;
+  font-size: 12px;
+  height: 35px;
+  background-color: #00a4ff;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+}
+
+footer .fot-cpy-phone a:hover {
+  background-color: #0092ee;
+}
+
+footer .fot-other .container {
+  padding: 30px 0;
+  border-bottom: 1px solid #45484c;
+}
+
+footer .fot-other-list {
+  position: relative;
+  padding-left: 100px;
+  min-height: 14px;
+  margin-top: 15px;
+}
+
+footer .fot-other-list:first-child {
+  margin-top: 0;
+}
+
+footer .fot-other-list h3 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100px;
+  line-height: 14px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+footer .fot-other-list-wrap {
+  padding-left: 20px;
+  overflow: hidden;
+}
+
+footer .fot-other-list-wrap ul {
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: -15px;
+}
+
+footer .fot-other-list-wrap ul li {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 15px;
+  padding: 0 10px;
+  width: 100px;
+}
+
+footer .fot-other-list-wrap ul li a {
+  line-height: 14px;
+  font-size: 12px;
+  color: #999;
+}
+
+footer .fot-icp .container {
+  position: relative;
+  min-height: 35px;
+  padding: 30px 0;
+}
+
+footer .fot-icp-left {
+  margin-right: 190px;
+}
+
+footer .fot-icp-left nav {
+  position: static;
+  border: none;
+}
+
+footer .fot-icp-left a {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+  font-size: 12px;
+  line-height: 26px;
+  color: #ccc;
+  white-space: nowrap;
+}
+
+footer .fot-icp-left a:first-child {
+  position: relative;
+  top: -2px;
+  width: 91px;
+  height: 16px;
+  background-image: url(../images/base-202004231022.svg);
+  margin-right: 25px;
+  background-position: 0.72% 13.270000000000001%;
+  background-size: 252.74725274725273% 1418.75%;
+  background-repeat: no-repeat;
+}
+
+footer .fot-icp-left hr {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border: none;
+}
+
+footer .fot-icp-left span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+  font-size: 12px;
+  line-height: 26px;
+  color: #ccc;
+  white-space: nowrap;
+}
+
+footer .fot-icp-right {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  width: 190px;
+}
+
+footer .fot-icp-right-content {
+  position: relative;
+}
+
+footer .fot-icp-right-content > a {
+  display: block;
+  padding: 0 30px 0 9px;
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  line-height: 33px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+footer .fot-icp-right-content > a i {
+  position: relative;
+  top: -1px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/base-202004231022.svg);
+  opacity: .6;
+  background-position: 76.17% 84.36%;
+  background-size: 1437.5% 1418.75%;
+  background-repeat: no-repeat;
+}
+
+footer .fot-icp-right-content > a::after {
+  content: '';
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  margin-top: -2px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 4px 4px 0;
+  border-color: #ccc transparent;
+  -webkit-transition: transform .2s ease, -webkit-transform .2s ease;
+  transition: transform .2s ease, -webkit-transform .2s ease;
+}
+
+footer .fot-icp-right-content div {
+  display: none;
+  position: absolute;
+  left: 0;
+  bottom: 100%;
+  z-index: 999;
+  padding-bottom: 4px;
+  width: 100%;
+}
+
+footer .fot-icp-right-content div ul {
+  background-color: #383c42;
+  border-radius: 2px;
+  padding: 5px 0;
+}
+
+footer .fot-icp-right-content div ul a {
+  display: block;
+  padding: 0 10px;
+  height: 30px;
+  font-size: 14px;
+  line-height: 30px;
+  color: #ccc;
+  cursor: default;
+}
+
+footer .fot-icp-right-content div ul a.active {
+  color: #00A4FF;
 }
 /*# sourceMappingURL=index.css.map */
