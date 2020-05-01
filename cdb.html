@@ -1,12 +1,218 @@
 <!-- 云数据库MySQL -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- 引入重置样式 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 引入滚动条样式 -->
+    <link rel="stylesheet" href="./lib/gundongtiao/css/jquery.mCustomScrollbar.min.css">
+    <!-- 引入本页的样式 -->
+    <link rel="stylesheet" href="./css/cdb.css">
 </head>
+
 <body>
-    
+    <!-- 头部导航 -->
+    <header>
+        <!-- 导航左侧 -->
+        <div class="header-left">
+            <a href="javascript:;" id="header-left-link">
+                <i></i>
+                <span>菜单</span>
+            </a>
+            <i class="header-left-line"></i>
+            <a href="javascript:;" class="header-logo">
+                <i></i>
+            </a>
+        </div>
+        <!-- 导航右侧 -->
+        <div class="header-right">
+            <div class="header-serach">
+                <i></i>
+                <input type="text" placeholder="云服务器CVM">
+                <div class="header-serach-list">
+                    <h3>热门搜索</h3>
+                    <ul>
+                        <li>
+                            <a href="javascript:;">直播</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">CDN</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">云数据库MySQL</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">短信</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">微信小程序</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-select">
+                <div>
+                    <a href="javascript:;">
+                        <i class="global"></i>
+                        <span>中国站</span>
+                        <i class="jiantou"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="javascript:;">备案</a>
+                    <a href="javascript:;">控制台</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- nav部分 -->
+    <nav>
+        <ul class="clearfix">
+            <li><a href="javascript:;">最新活动</a></li>
+            <li><a href="javascript:;">产品</a></li>
+            <li><a href="javascript:;">解决方案</a></li>
+            <li><a href="javascript:;">定价</a></li>
+            <li><a href="javascript:;">文档</a></li>
+            <li><a href="javascript:;">企业中心</a></li>
+            <li><a href="javascript:;">云市场</a></li>
+            <li><a href="javascript:;">开发者</a></li>
+            <li><a href="javascript:;">支持</a></li>
+            <li><a href="javascript:;">合作与生态</a></li>
+            <li><a href="javascript:;">客户</a></li>
+        </ul>
+    </nav>
+    <!-- banner部分 -->
+    <div class="banner">
+        <!-- 版心 -->
+        <div class="container">
+            <div class="banner-ct">
+                <h1>云数据库 TencentDB for MySQL</h1>
+                <div class="banner-ct-des">一种高性能,高可靠、可灵活伸缩的数据库托管服务</div>
+                <div class="banner-btn">
+                    <a href="javascript:;" class="banner-buy">立即选购</a>
+                    <a href="javascript:;" class="banner-console">管理空控制台</a>
+                    <a href="javascript:;" class="banner-zj">腾讯云数据库专家服务 &gt;</a>
+                </div>
+            </div>
+            <!-- 右边图片 -->
+            <div class="banner-img">
+
+            </div>
+        </div>
+    </div>
+    <!-- MySQL简介bar -->
+    <section class="ms-bar">
+        <!-- 版心 -->
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="javascript:;" style="font-size: 16px; font-weight: bold;">云数据库 MySQL概览</a>
+                </li>
+                <li>
+                    <a href="javascript:;">产品详情信息</a>
+                </li>
+                <li>
+                    <a href="javascript:;">定价</a>
+                </li>
+                <li>
+                    <a href="javascript:;">入门</a>
+                </li>
+                <li>
+                    <a href="javascript:;">文档与资源</a>
+                </li>
+                <li>
+                    <a href="javascript:;">常见问题</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- MySQL简介内容 -->
+    <section class="ms-ct">
+        <div class="container">
+            <div class="ms-ct-bd">
+                <div class="ms-ct-left">
+                    <div class="ms-ct-jianjie">
+                        <div class="ms-ct-img">
+                            <img src="./images/MySQL48px.svg" alt="">
+                        </div>
+                        <div class="ms-ct-body">
+                            <h4>云数据库 MySQL 简介</h4>
+                            <p>腾讯云数据库 MySQL（TencentDB for MySQL）为用户提供安全可靠，易于维护的数据库服务。MySQL 是世界上最流行的开源关系数据库，通过腾讯云数据库
+                                MySQL，您可实现分钟级别的数据库部署和弹性扩展，不仅经济实惠，而且稳定可靠，易于运维。云数据库 MySQL
+                                提供备份恢复、监控、容灾、快速扩容、数据传输等全套解决方案，为您简化数据库运维工作，使您能更加专注于业务发展。</p>
+                        </div>
+                    </div>
+                    <div class="ms-ct-into">
+                        <div class="ms-ct-into-bd">
+                            <div class="ms-ct-into-ct">
+                                <div class="ms-ct-into-ct-img">
+                                    <img src="./images/mysql-txsql.png" alt="">
+                                </div>
+                                <div class="ms-ct-into-ct-body">
+                                    <p>TXSQL 是腾讯云数据库团队维护的 MySQL 内核分支，100%兼容原生 MySQL 版本。TXSQL 改进了热点更新、隐式锁转换、redo checksum
+                                        算法、AHI 锁等，支持并行复制 MTS，支持线程池、加密、审计等多项企业级特性。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ms-ct-event">
+                        <div class="ms-ct-event-title">活动 & 公告</div>
+                        <div class="ms-ct-event-con">
+                            <ul>
+                                <li>
+                                    <i></i>
+                                    <a href="javascript:;">MySQL 快速入门视频教程，立即学习 >></a>
+                                </li>
+                                <li>
+                                    <i></i>
+                                    <a href="javascript:;">MySQL 新用户秒杀低至9.4元/月起，还有多款热门云产品满足您的上云需求 >></a>
+                                </li>
+                                <li>
+                                    <i></i>
+                                    <a href="javascript:;">MySQL 新用户限时福利，1C1G年购仅需56元，马上参与 >></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="ms-ct-right">
+                    <div class="about-video">
+                        <div class="about-vide-ct">
+                            <div class="about-video-box">
+                                <a href="javascript:;">
+                                    <div class="about-video-img">
+                                        <img src="./images/image.png" alt="">
+                                        <div class="about-video-time">2:06</div>
+                                        <p class="about-video-title">云数据库 MySQL 视频简介</p>
+                                        <i class="about-video-btn">
+                                            <b></b>
+                                        </i>
+                                    </div>
+                                    <div class="about-video-bar">
+                                        <span>云数据库 MySQL 视频简介</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 遮罩层 -->
+    <div class="mask"></div>
+    <!-- 引入jQuery -->
+    <script src="./lib/gundongtiao/js/jquery.min.js"></script>
+    <!-- 引入滚动条插件 -->
+    <script src="./lib/gundongtiao/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <!-- 引入公共js -->
+    <script src="./js/common.js"></script>
+    <!-- 引入本页js -->
+    <script src="./js/cdb.js"></script>
 </body>
+
 </html>

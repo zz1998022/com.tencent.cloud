@@ -4,13 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>腾讯云 - 产业智变 云启未来</title>
     <!-- 清除浏览器默认样式 -->
     <link rel="stylesheet" href="./css/reset.css">
     <!-- 引入公共样式 -->
     <link rel="stylesheet" href="./css/common.css">
+    <!-- 引入滚动条样式 -->
+    <link rel="stylesheet" href="./lib/gundongtiao/css/jquery.mCustomScrollbar.min.css">
     <!-- 引入主页样式 -->
     <link rel="stylesheet" href="./css/index.css">
+    <!-- 设置网页的icon -->
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon"/>
 </head>
 
 <body>
@@ -22,7 +26,7 @@
     <header>
         <!-- 导航左侧 -->
         <div class="header-left">
-            <a href="javascript:;">
+            <a href="javascript:;" id="header-left-link">
                 <i></i>
                 <span>菜单</span>
             </a>
@@ -36,6 +40,26 @@
             <div class="header-serach">
                 <i></i>
                 <input type="text" placeholder="云服务器CVM">
+                <div class="header-serach-list">
+                    <h3>热门搜索</h3>
+                    <ul>
+                        <li>
+                            <a href="javascript:;">直播</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">CDN</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">云数据库MySQL</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">短信</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">微信小程序</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="header-select">
                 <div>
@@ -3005,13 +3029,37 @@
         </div>
     </footer>
     <!-- 腾讯云菜单 -->
-    <div class="menu">
-        <div class="menu-content">
-            
-        </div>
+    <div class="menu mCustomScrollbar" data-mcs-theme="dark">
+        <ul>
+            <li><a href="javascript:;">腾讯云计算</a></li>
+            <li><a href="javascript:;">产品</a></li>
+            <li><a href="javascript:;">解决方案</a></li>
+            <li><a href="javascript:;">定价</a></li>
+            <li><a href="javascript:;">文档</a></li>
+            <li><a href="javascript:;">企业中心</a></li>
+            <li><a href="javascript:;">云市场</a></li>
+            <li><a href="javascript:;">云+社区</a></li>
+            <li><a href="javascript:;">腾讯云大学</a></li>
+            <li><a href="javascript:;">支持</a></li>
+            <li><a href="javascript:;">合作与生态</a></li>
+        </ul>
     </div>
+    <!-- 右侧固定菜单 -->
+    <div class="right-menu">
+        <a href="javascript:;">
+            <img src="./images/message.svg" alt="message">
+            <span>联系我们</span>
+        </a>
+    </div>
+    <!-- 返回顶部选项 -->
+    <a href="javascript:;" title="返回顶部" class="gotop"></a>
     <!-- 引入jQuery -->
-    <script src="https://cdn.bootcss.com/jquery/3.5.0/jquery.min.js"></script>
+    <!-- <script src="./lib/gundongtiao/js/jquery.min.js"></script> -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- 引入滚动条插件 -->
+    <script src="./lib/gundongtiao/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <!-- 引入公共js -->
+    <script src="./js/common.js"></script>
     <!-- 引入数据 -->
     <script src="./js/data.js"></script>
     <!-- 引入主页js -->

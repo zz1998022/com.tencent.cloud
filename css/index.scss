@@ -145,6 +145,42 @@ header {
         }
     }
 
+    .header-serach-list {
+        display: none;
+        position: absolute;
+        width: 424px;
+        left: 0;
+        background-color: #383e4d;
+
+        h3 {
+            padding-left: 15px;
+            font-size: 12px;
+            font-weight: 400;
+            color: #8c8e99;
+            line-height: 30px;
+            transform: none;
+            opacity: 1;
+            transition: all .4s ease;
+        }
+
+        ul {
+            li {
+                transform: none;
+                opacity: 0;
+                transition: all 1s ease;
+
+                a {
+                    padding: 0 15px;
+                    color: #fff;
+                    line-height: 30px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                }
+            }
+        }
+    }
+
     .header-select {
         float: left;
         height: 100%;
@@ -235,6 +271,10 @@ nav {
 
         li {
             float: left;
+
+            a:hvoer {
+                color: #00a4ff !important;
+            }
         }
 
         a {
@@ -246,6 +286,8 @@ nav {
             font-size: 14px;
             transition: background-color .4s
         }
+
+
     }
 }
 
@@ -2354,19 +2396,137 @@ footer {
 // 腾讯云隐藏菜单
 .menu {
     position: absolute;
-    top: 77px;
+    top: 78px;
+    left: -200px;
+    width: 200px;
     height: 340px;
-    width: 400px;
-    box-shadow: rgba(0, 0, 0, .25) 5px 0 5px -5px;
+    background-color: #f7f8fa;
+    z-index: 100;
+    padding-top: 24px;
 
-    .menu-content {
+    ul {
+
+        li {
+
+
+            a {
+                display: block;
+                color: #000000;
+                line-height: 20px;
+                padding: 8px 20px 8px 0;
+                position: relative;
+                font-size: 14px;
+                padding-left: 10px;
+                padding-right: 10px;
+
+                &:hover {
+                    background-color: #00a4ff;
+                    color: #fff;
+                }
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    width: 6px;
+                    height: 8px;
+                    background-image: url(../images/base-202004231022.svg);
+                    margin-top: -4px;
+                    right: 0px;
+                    background-position: 29.020000000000003% 97.72%;
+                    background-size: 3833.3333333333335% 2837.5%;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+    }
+}
+
+// 右边固定菜单
+
+.right-menu {
+
+    position: fixed;
+    right: 10px;
+    bottom: 100px;
+    z-index: 10000;
+
+    a {
+        display: block;
+        width: 44px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #e1e8f0;
+        text-align: center;
+        cursor: pointer;
+        padding: 12px 0;
+        background-color: #fff;
+
+        img {
+            width: 18px;
+            height: 18px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        span {
+            display: block;
+            text-align: center;
+            width: 16px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 16px;
+            color: #00A4FF;
+            line-height: 1;
+            margin-top: 8px;
+        }
+    }
+}
+
+// 返回顶部
+.gotop {
+    position: fixed;
+    display: none;
+    border-color: #ccd1d9;
+    z-index: 99;
+    right: 10px;
+    bottom: 15px;
+    width: 44px;
+    height: 44px;
+    white-space: nowrap;
+    text-indent: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid #e1e8f0;
+    box-shadow: 0 0 0 1px rgba(227, 229, 223, .25);
+    background-color: #fff;
+    opacity: 0;
+
+    &::before {
+        content: "";
         position: absolute;
-        left: 0;
-        width: 200px;
-        height: 300px;
-        background-color: #f7f8fa;
-        overflow-y: auto;
-        overflow-x: hidden;
-        
+        left: 50%;
+        margin-left: -7px;
+        top: 50%;
+        margin-top: -4px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 7px 8px;
+        border-color: transparent transparent #666;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        margin-left: -7px;
+        top: 50%;
+        margin-top: -1px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 7px 8px;
+        border-color: transparent transparent #fff;
     }
 }
