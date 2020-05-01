@@ -7,6 +7,8 @@ $(document).ready(function() {
     gotop();
     // 搜索框效果
     serach();
+    //菜单动画
+    meunAm();
 })
 
  // 回到顶部功能
@@ -78,5 +80,22 @@ function serach() {
             console.log(111)
         })
 
+    })
+}
+
+// 菜单动画
+function meunAm() {
+    $('#header-left-link').mouseover(function () {
+        // 让元素慢慢滑动过来
+        $('.menu').stop().animate({
+            left: 0
+        }, 100)
+    })
+
+    $('#header-left-link').mouseout(function () {
+        // 让元素慢慢滑动过来
+        $('.menu').stop().animate({
+            left: -200
+        }, 100)
     })
 }

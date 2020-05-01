@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>数据容灾-48x48</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="数据容灾-48x48" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M9,40 L11,40 L11,44 L37,44 L37,38 L39,38 L39,46 L9,46 L9,40 Z M9,38 L11,38 L9,38 Z M39,8 L37,8 L37,4 L11,4 L11,10 L9,10 L9,2 L39,2 L39,8 Z M37,10 L39,10 L37,10 Z" id="Combined-Shape" fill="#334966" fill-rule="nonzero"></path>
+        <path d="M0,10 L20,10 L20,38 L0,38 L0,10 Z M2,12 L2,36 L18,36 L18,12 L2,12 Z" id="Rectangle-24-Copy" fill="#334966" fill-rule="nonzero"></path>
+        <path d="M28,10 L48,10 L48,38 L28,38 L28,10 Z M30,12 L30,36 L46,36 L46,12 L30,12 Z" id="Rectangle-24-Copy-2" fill="#334966" fill-rule="nonzero"></path>
+        <rect id="Rectangle-38" fill="#00A4FF" x="4" y="14" width="12" height="8"></rect>
+        <rect id="Rectangle-38-Copy" fill="#00A4FF" x="32" y="14" width="12" height="8"></rect>
+        <rect id="Rectangle-38-Copy-2" fill="#00A4FF" x="4" y="24" width="12" height="2"></rect>
+        <rect id="Rectangle-38-Copy-5" fill="#00A4FF" x="32" y="24" width="12" height="2"></rect>
+        <rect id="Rectangle-38-Copy-3" fill="#00A4FF" x="4" y="28" width="12" height="2"></rect>
+        <rect id="Rectangle-38-Copy-6" fill="#00A4FF" x="32" y="28" width="12" height="2"></rect>
+        <rect id="Rectangle-38-Copy-4" fill="#00A4FF" x="4" y="32" width="12" height="2"></rect>
+        <rect id="Rectangle-38-Copy-7" fill="#00A4FF" x="32" y="32" width="12" height="2"></rect>
+    </g>
+</svg>

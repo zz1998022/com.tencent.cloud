@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>安全防护-48x48</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="安全防护-48x48" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-Copy" transform="translate(3.000000, 0.000000)">
+            <polygon id="Fill-2" fill="#00A4FF" points="16 34 30 34 30 24 16 24"></polygon>
+            <path d="M12,34 L30,34 L30,20 L12,20 L12,34 Z M14,32 L28,32 L28,22 L14,22 L14,32 Z" id="Fill-3" fill="#334966"></path>
+            <g id="Group-8" fill="#334966">
+                <path d="M21,11 C17.687,11 15,13.687 15,17 L15,22 L27,22 L27,17 C27,13.687 24.313,11 21,11 M21,13 C23.205,13 25,14.794 25,17 L25,20 L17,20 L17,17 C17,14.794 18.795,13 21,13" id="Fill-4"></path>
+                <path d="M21,0 L18.822,1.187 C13,4.363 6.6,6.34 0,7 L0,28.529 C0,33.736 2.891,38.514 7.504,40.931 L21,48 L34.496,40.931 C39.109,38.514 42,33.736 42,28.529 L42,7 C35.4,6.34 29,4.363 23.178,1.187 L21,0 Z M21,2.278 L22.22,2.943 C27.777,5.976 33.752,7.935 40,8.778 L40,28.529 C40,33.008 37.535,37.081 33.568,39.159 L21,45.742 L8.432,39.159 C4.465,37.081 2,33.008 2,28.529 L2,8.778 C8.248,7.935 14.223,5.976 19.78,2.943 L21,2.278 Z" id="Fill-6"></path>
+            </g>
+        </g>
+    </g>
+</svg>

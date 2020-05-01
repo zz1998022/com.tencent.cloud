@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>数据迁移-48x48</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="数据迁移-48x48" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M1,5 L1,43 L47,43 L47,12 L31.5785905,12 L24.7480627,5 L1,5 Z" id="Rectangle-80" stroke="#334966" stroke-width="2"></path>
+        <rect id="Rectangle-81" fill="#00A4FF" x="2" y="36" width="44" height="6"></rect>
+        <path d="M23,18.2666667 L19.5,22 L18,20.4 L24,14 L30,20.4 L28.5,22 L25,18.2666667 L25,38 L23,38 L23,18.2666667 Z" id="Combined-Shape-Copy-3" fill="#334966" transform="translate(24.000000, 26.000000) rotate(-270.000000) translate(-24.000000, -26.000000) "></path>
+    </g>
+</svg>

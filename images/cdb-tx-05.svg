@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>统一监控-48x48</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="统一监控-48x48" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M2,5 L2,37 L46,37 L46,5 L2,5 Z M0,3 L48,3 L48,39 L0,39 L0,3 Z" id="Rectangle-16" fill="#334966" fill-rule="nonzero"></path>
+        <rect id="Rectangle-17" fill="#334966" x="12" y="43" width="24" height="2"></rect>
+        <rect id="Rectangle-73" fill="#334966" x="20" y="37" width="2" height="8"></rect>
+        <rect id="Rectangle-73-Copy" fill="#334966" x="26" y="37" width="2" height="8"></rect>
+        <rect id="Rectangle-74" fill="#00A4FF" x="2" y="14" width="44" height="4"></rect>
+        <rect id="Rectangle-74-Copy" fill="#00A4FF" x="2" y="26" width="44" height="4"></rect>
+        <polygon id="Path-5" fill="#334966" fill-rule="nonzero" points="15.1965332 14.2012494 11.677033 23 1 23 1 21 10.322967 21 14.8034668 9.79875063 24.9704797 26.0659713 31.8549954 14.2639445 37.4683749 21 47 21 47 23 36.5316251 23 32.1450046 17.7360555 25.0295203 29.9340287"></polygon>
+    </g>
+</svg>

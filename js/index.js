@@ -13,21 +13,6 @@ $(document).ready(function () {
 
     // 上云tab切换
     shangyunTab();
-
-    // 菜单动画
-    $('#header-left-link').mouseover(function () {
-        // 让元素慢慢滑动过来
-        $('.menu').stop().animate({
-            left: 0
-        }, 100)
-    })
-
-    $('#header-left-link').mouseout(function () {
-        // 让元素慢慢滑动过来
-        $('.menu').stop().animate({
-            left: -200
-        }, 100)
-    })
 })
 
 
