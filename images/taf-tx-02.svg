@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>识别虚假用户</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设计资源" transform="translate(-153.000000, -518.000000)" fill-rule="nonzero">
+            <g id="识别虚假用户" transform="translate(153.000000, 518.000000)">
+                <g id="1541159138509-48x48" transform="translate(2.000000, 0.000000)">
+                    <path d="M34,0 L44,0 L44,10 L42,10 L42,2 L34,2 L34,0 Z M10,0 L10,2 L2,2 L2,10 L0,10 L0,0 L10,0 Z M34,43 L34,41 L42,41 L42,33 L44,33 L44,43 L34,43 Z M10,44 L0,44 L0,34 L2,34 L2,42 L10,42 L10,44 Z" id="Combined-Shape" fill="#334966"></path>
+                    <rect id="Rectangle-37" fill="#00A4FF" x="0" y="14" width="44" height="16"></rect>
+                    <path d="M34,35 L10,35 L10,33.063 C10,31.417 10.987,29.959 12.515,29.349 L18.743,26.857 L20,26.354 L20,25 L24,25 L24,26.354 L25.257,26.857 L31.485,29.349 C33.013,29.959 34,31.417 34,33.063 L34,35 Z M16,15 C16,8.039 19.759,7 22,7 C24.241,7 28,8.039 28,15 C28,19.121 24.62,23 22,23 C19.38,23 16,19.121 16,15 Z M32.229,27.491 L26,25 L26,23.388 C28.294,21.514 30,18.262 30,15 C30,10 28,5 22,5 C16,5 14,10 14,15 C14,18.262 15.706,21.514 18,23.388 L18,25 L11.771,27.491 C9.494,28.402 8,30.608 8,33.063 L8,37 L36,37 L36,33.063 C36,30.608 34.506,28.402 32.229,27.491 Z" id="Fill-1" fill="#334966"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

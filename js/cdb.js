@@ -42,29 +42,6 @@ function yycjTab() {
     })
 }
 
-// 隐藏的导航栏
-function hideMeun() {
-    $(window).scroll(function () {
-        // 获取window被卷去的高度
-        let windowScroll = $(this).scrollTop();
-        // 获取元素
-        let bar = $('.bar');
-        // 创建节流阀
-        // window的高度大于400让菜单栏显示
-        if (windowScroll >= 400) {
-            bar.stop().animate({
-                top: 0
-            }, 300)
-        } 
-
-        if (windowScroll < 400) {
-            bar.stop().animate({
-                top: -54
-            }, 300)
-        }
-    })
-}
-
 // 视频播放
 function videoPlayer() {
     // 获取元素
@@ -81,7 +58,7 @@ function videoPlayer() {
     let tiemr = null;
 
     // 绑定事件
-    video.addEventListener('click',function() {
+    video.addEventListener('click', function () {
         // 让遮罩层显示出来
         mask.style.display = 'block';
         // 让视频播放器显示出来
@@ -91,7 +68,7 @@ function videoPlayer() {
         // 让播放按钮显示出来
         play.style.display = 'block';
         // 让遮罩层的高度等于body的高度
-        mask.style.height= window.getComputedStyle(document.body,null)['height'];
+        mask.style.height = window.getComputedStyle(document.body, null)['height'];
         // 禁止滚动条
         $(document.body).css({
             "overflow-x": "hidden",
@@ -100,7 +77,7 @@ function videoPlayer() {
     })
 
     // 当点击关闭按钮的时候,隐藏视频和遮罩层并让视频停止播放
-    closeBtn.addEventListener('click',function() {
+    closeBtn.addEventListener('click', function () {
         // 隐藏遮罩层
         mask.style.display = 'none';
         // 隐藏按钮
@@ -120,7 +97,7 @@ function videoPlayer() {
     })
 
     // 点击视频的时候开始播放
-    videoMain.addEventListener('click',function() {
+    videoMain.addEventListener('click', function () {
         if (flag) {
             // 清除定时器
             clearTimeout(tiemr);
@@ -129,10 +106,10 @@ function videoPlayer() {
             // 让暂停键显示出来
             stop.style.display = 'block'
             // 一秒之后让暂停隐藏
-            setTimeout(function() {
+            setTimeout(function () {
                 $(stop).animate({
-                    "opacity" : 0
-                },300,function() {
+                    "opacity": 0
+                }, 300, function () {
                     $(stop).hide();
                 })
             })

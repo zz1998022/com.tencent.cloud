@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>网络安全-48px</title>
+    <desc>Created with Sketch.</desc>
+    <g id="网络安全-48px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-Copy" fill="#444444" opacity="0" x="0" y="0" width="48" height="48"></rect>
+        <g id="Group">
+            <circle id="Oval-25" stroke="#334966" stroke-width="2" cx="24" cy="24" r="23"></circle>
+            <ellipse id="Oval-26" stroke="#334966" stroke-width="2" cx="24" cy="24" rx="11" ry="23"></ellipse>
+            <ellipse id="Oval-26-Copy" fill="#00A4FF" cx="24" cy="24" rx="17" ry="6"></ellipse>
+            <ellipse id="Oval-26" stroke="#334966" stroke-width="2" cx="24" cy="24" rx="11" ry="23"></ellipse>
+            <ellipse id="Oval-26-Copy" stroke="#334966" stroke-width="2" cx="24" cy="24" rx="23" ry="11"></ellipse>
+        </g>
+    </g>
+</svg>

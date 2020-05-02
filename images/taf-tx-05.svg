@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>识别伪造点击</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设计资源" transform="translate(-387.000000, -518.000000)">
+            <g id="识别伪造点击" transform="translate(387.000000, 518.000000)">
+                <path d="M24.010228,0 C36.9355337,0 47.4754225,10.3209424 47.9999851,23.2524152 L45.9972611,23.2523431 C45.4741307,11.437986 35.8303135,2.02196317 24.010228,2.02196317 C11.8547855,2.02196317 2.00085233,11.9798644 2.00085233,24.263558 C2.00085233,34.8086923 9.26284635,43.6398013 19.0087286,45.9283657 L19.007979,47.9997863 C8.14845749,45.67414 0,35.9304762 0,24.263558 C0,10.8631649 10.7497452,0 24.010228,0 Z" id="形状结合" fill="#334966" fill-rule="nonzero"></path>
+                <polygon id="路径-7" fill="#00A4FF" points="26 20 29.8967697 42 35.5 33.5384615 45 31"></polygon>
+                <polygon id="路径-7" stroke="#334966" stroke-width="2" points="22 18 26.7171422 45 33.5 34.6153846 45 31.5"></polygon>
+                <line x1="34" y1="35" x2="42" y2="45" id="路径-8" stroke="#334966" stroke-width="2"></line>
+            </g>
+        </g>
+    </g>
+</svg>

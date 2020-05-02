@@ -99,3 +99,134 @@ function meunAm() {
         }, 100)
     })
 }
+
+// 隐藏的导航栏
+function hideMeun() {
+    $(window).scroll(function () {
+        // 获取window被卷去的高度
+        let windowScroll = $(this).scrollTop();
+        // 获取元素
+        let bar = $('.bar');
+        // 创建节流阀
+        // window的高度大于400让菜单栏显示
+        if (windowScroll >= 400) {
+            bar.stop().animate({
+                top: 0
+            }, 300)
+        } 
+
+        if (windowScroll < 400) {
+            bar.stop().animate({
+                top: -54
+            }, 300)
+        }
+    })
+}
+
+/**
+ * 
+ * @param {string} element css选择器
+ * @param {object} datas 数据
+ * @param {number} cut 类名截取 从1开始
+ */
+// 添加数据
+function addDatas(element,datas,cut) {
+    // 获取元素
+    let list = $(element);
+    // 清空子节点
+    list.html(null);
+    // 初始化模板字符串
+    let str = "";
+    // 截取类名
+    let className = element.substring(1,cut);
+    // 遍历数据
+    datas.forEach(function (value) {
+        // 讲内容添加进模板字符串
+        str = str + `
+        <div class="${className}-tx-list-item">
+        <div class="${className}-tx-inner">
+            <div class="${className}-tx-img">
+                <img src="${value.imgUrl}" alt="">
+            </div>
+            <div class="${className}-tx-body">
+                <h4>${value.title}</h4>
+                <p>${value.content}</p>
+            </div>
+        </div>
+    </div>
+        `;
+    })
+    // 通过父元素添加子节点
+    list.html(str);
+}
+
+// 应用场景tab切换
+function yycjTab(lis,items) {
+
+    // 获取元素
+    let li = $(`.yycj-bd-ct>ul>li`);
+    let item = $('.yycj-item');
+    // 创建节流阀
+    let temp = document.querySelector('.yycj-bd-ct>ul>li');
+    temp.now = 0;
+
+    // 绑定事件
+    li.click(function() {
+        let index = $(this).index();
+
+        // 判断当前被点击的元素是否和现在被选中元素的索引一样
+        if (temp.now !== index) {
+            // 清除其他元素的类名
+            li.removeClass('active');
+            // 给对应的属性添加元素
+            li.eq(index).addClass('active');
+            // 让其他的元素隐藏
+            item.stop().animate({
+                opacity: 0
+            },300,function() {
+                item.hide();
+                // 让对应的元素显示出来
+                item.eq(index).show().stop().animate({
+                    opacity: 1
+                })
+            })
+            temp.now = index;
+        }
+    })
+}
+
+// 应用场景添加数据
+function yycjAddDatas() {
+    // 获取元素
+    let ul = $('.yycj-bd-ct>ul');
+    let yycjContent = $('.yycj-bd-ct');
+
+    // 初始化模板
+    let title = "";
+    let content = "";
+
+    // 遍历数据
+    yycj.forEach(function(value) {
+        // 将内容添加到模板字符串
+        title = title + `
+        <li class="${value.active}">
+            <a href="javascript:;">${value.title}</a>
+        </li>
+        `
+
+        content = content + `
+        <div class="yycj-item" style="${value.style}">
+        <div class="yycj-item-ct">
+            <p>
+                ${value.content}
+                <img src="${value.imgUrl}" alt="">
+            </p>
+        </div>
+    </div>
+        `
+    })
+
+    // 通过父元素添加子节点
+    ul.append(title);
+    yycjContent.append(content);
+}

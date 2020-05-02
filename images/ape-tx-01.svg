@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.1 (89650) - https://sketch.com -->
+    <title>海量优质图片</title>
+    <desc>Created with Sketch.</desc>
+    <g id="海量优质图片" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1540884015629-48x48" transform="translate(0.000000, 4.000000)" fill-rule="nonzero">
+            <g id="Rectangle-18" fill="#334966">
+                <path d="M42,34 L0,34 L0,0 L42,0 L42,34 Z M2,32 L40,32 L40,2 L2,2 L2,32 Z" id="形状"></path>
+            </g>
+            <g id="Combined-Shape" transform="translate(0.000000, 9.000000)" fill="#334966">
+                <path d="M24.022,25 L0,25 L0,0.978 L1.043,1.022 C13.376,1.55 23.45,11.624 23.978,23.957 L24.022,25 Z M2,23 L21.91,23 C20.954,12.521 12.479,4.046 2,3.09 L2,23 Z" id="形状"></path>
+            </g>
+            <g id="Combined-Shape_1_" transform="translate(0.000000, 16.000000)" fill="#334966">
+                <path d="M17.033,18 L0,18 L0,0.967 L1.062,1.032 C9.604,1.558 16.441,8.397 16.968,16.938 L17.033,18 Z M2,16 L14.868,16 C13.978,9.316 8.684,4.022 2,3.132 L2,16 Z" id="形状"></path>
+            </g>
+            <g id="Combined-Shape_2_" transform="translate(0.000000, 23.000000)" fill="#334966">
+                <path d="M10.062,11 L0,11 L0,0.938 L1.11,1.06 C5.716,1.569 9.43,5.283 9.94,9.889 L10.062,11 Z M2,9 L7.747,9 C7.021,6.204 4.795,3.979 2,3.253 L2,9 Z" id="形状"></path>
+            </g>
+            <g id="Oval-6" transform="translate(26.000000, 7.000000)" fill="#00A4FF">
+                <circle id="椭圆形" cx="4" cy="4" r="4"></circle>
+            </g>
+            <polygon id="路径" fill="#00A4FF" points="42 23 42 34 8 34 8 38 46 38 46 23"></polygon>
+            <polygon id="路径" fill="#334966" points="42 6 42 8 46 8 46 38 8 38 8 34 6 34 6 40 48 40 48 6"></polygon>
+        </g>
+    </g>
+</svg>

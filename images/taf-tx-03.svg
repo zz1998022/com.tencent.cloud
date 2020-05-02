@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>识别虚假行为</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设计资源" transform="translate(-229.000000, -518.000000)">
+            <g id="识别虚假行为" transform="translate(229.000000, 518.000000)">
+                <path d="M12.5834077,26 L14.7991288,26 C17.5301953,31.3425139 23.0879718,35 29.5,35 C38.6126984,35 46,27.6126984 46,18.5 C46,9.38730163 38.6126984,2 29.5,2 C24.3761892,2 19.7978613,4.33549001 16.7714863,8 L14.26639,8 C17.6039638,3.16697182 23.1821389,0 29.5,0 C39.7172679,0 48,8.28273213 48,18.5 C48,28.7172679 39.7172679,37 29.5,37 C21.9525813,37 15.460774,32.4803902 12.5834077,26 Z" id="形状" fill="#334966" fill-rule="nonzero"></path>
+                <circle id="椭圆形" fill="#00A4FF" cx="29.5" cy="18.5" r="13.5"></circle>
+                <rect id="矩形" stroke="#334966" transform="translate(14.820354, 32.819646) rotate(45.000000) translate(-14.820354, -32.819646) " x="14.3203536" y="30.3321464" width="1" height="4.975"></rect>
+                <path d="M6.44300689,35.266885 L6.44300689,45.3024189 L8.44300689,45.3024189 L8.44300689,35.266885 L6.44300689,35.266885 Z M4.44300689,32.7580015 L10.4430069,32.7580015 L10.4430069,47.8113024 L4.44300689,47.8113024 L4.44300689,32.7580015 Z" id="形状" fill="#334966" fill-rule="nonzero" transform="translate(7.443007, 40.284652) rotate(45.000000) translate(-7.443007, -40.284652) "></path>
+                <rect id="矩形" x="0" y="7" width="30" height="20"></rect>
+                <rect id="矩形" fill="#334966" fill-rule="nonzero" x="0" y="20" width="20" height="2"></rect>
+                <rect id="矩形" fill="#334966" fill-rule="nonzero" x="4" y="16" width="20" height="2"></rect>
+                <rect id="矩形" fill="#334966" fill-rule="nonzero" x="8" y="12" width="20" height="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

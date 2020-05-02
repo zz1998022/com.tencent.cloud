@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>护航服务-48px</title>
+    <desc>Created with Sketch.</desc>
+    <g id="护航服务-48px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-Copy" fill="#444444" opacity="0" x="0" y="0" width="48" height="48"></rect>
+        <g id="1547175819015-48x48" transform="translate(0.000000, 2.000000)">
+            <polygon id="Fill-1" fill="#334966" points="0 -0.0001 0 35.9999 22 35.9999 22 33.9999 2 33.9999 2 1.9999 46 1.9999 46 14.9999 48 14.9999 48 -0.0001"></polygon>
+            <polygon id="Fill-2" fill="#334966" points="12 42 22 42 22 40 12 40"></polygon>
+            <polygon id="Fill-3" fill="#334966" points="20 42 22 42 22 34 20 34"></polygon>
+            <polygon id="Fill-4" fill="#00A4FF" points="8 12 20 12 20 10 8 10"></polygon>
+            <polygon id="Fill-5" fill="#00A4FF" points="8 18 20 18 20 16 8 16"></polygon>
+            <polygon id="Fill-6" fill="#00A4FF" points="8 24 20 24 20 22 8 22"></polygon>
+            <path d="M36,21 L34.963,21.544 C32.19,23 29.143,23.906 26,24.208 L26,34.076 C26,36.462 27.377,38.652 29.573,39.76 L36,43 L42.427,39.76 C44.623,38.652 46,36.462 46,34.076 L46,24.208 C42.857,23.906 39.81,23 37.037,21.544 L36,21 Z" id="Fill-7" fill="#00A4FF"></path>
+            <path d="M36,16 L34.859,16.692 C31.81,18.545 28.457,19.698 25,20.083 L25,32.642 C25,35.68 26.515,38.467 28.931,39.876 L36,44 L43.069,39.876 C45.485,38.467 47,35.68 47,32.642 L47,20.083 C43.543,19.698 40.19,18.545 37.141,16.692 L36,16 Z" id="Path" stroke="#334966" stroke-width="2"></path>
+            <polygon id="Fill-11" fill="#334966" points="31 32 41 32 41 30 31 30"></polygon>
+            <polygon id="Fill-13" fill="#334966" points="35 36 37 36 37 26 35 26"></polygon>
+        </g>
+    </g>
+</svg>
