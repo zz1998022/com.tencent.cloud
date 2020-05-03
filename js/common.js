@@ -1,18 +1,34 @@
 /**
  * 公共js
+ * 将重复的效果封装成一个函数重复使用
  */
 
-$(document).ready(function() {
+$(document).ready(function () {
     // 回到鼎固边
     gotop();
     // 搜索框效果
     serach();
     //菜单动画
     meunAm();
+    //下拉菜单
+    slideMenu();
 })
 
- // 回到顶部功能
- function gotop() {
+// 下拉菜单那
+function slideMenu() {
+
+    // 获取元素
+    let li = $("nav").eq(0).find("ul>li:nth-child(2)");
+    li.mouseover(function() {
+        $('#product').slideDown();
+    })
+    li.mouseout(function() {
+        $('#product').slideUp();
+    })
+}
+
+// 回到顶部功能
+function gotop() {
     $(window).scroll(function () {
         // 获取当前window被卷去的高度
         let windowScroll = $(this).scrollTop();
@@ -41,7 +57,7 @@ $(document).ready(function() {
     $('.gotop').click(function () {
         $(document.documentElement).stop().animate({
             scrollTop: 0
-        },300)
+        }, 300)
     })
 }
 
@@ -113,7 +129,7 @@ function hideMeun() {
             bar.stop().animate({
                 top: 0
             }, 300)
-        } 
+        }
 
         if (windowScroll < 400) {
             bar.stop().animate({
@@ -130,7 +146,7 @@ function hideMeun() {
  * @param {number} cut 类名截取 从1开始
  */
 // 添加数据
-function addDatas(element,datas,cut) {
+function addDatas(element, datas, cut) {
     // 获取元素
     let list = $(element);
     // 清空子节点
@@ -138,7 +154,7 @@ function addDatas(element,datas,cut) {
     // 初始化模板字符串
     let str = "";
     // 截取类名
-    let className = element.substring(1,cut);
+    let className = element.substring(1, cut);
     // 遍历数据
     datas.forEach(function (value) {
         // 讲内容添加进模板字符串
@@ -161,7 +177,7 @@ function addDatas(element,datas,cut) {
 }
 
 // 应用场景tab切换
-function yycjTab(lis,items) {
+function yycjTab(lis, items) {
 
     // 获取元素
     let li = $(`.yycj-bd-ct>ul>li`);
@@ -171,7 +187,7 @@ function yycjTab(lis,items) {
     temp.now = 0;
 
     // 绑定事件
-    li.click(function() {
+    li.click(function () {
         let index = $(this).index();
 
         // 判断当前被点击的元素是否和现在被选中元素的索引一样
@@ -183,7 +199,7 @@ function yycjTab(lis,items) {
             // 让其他的元素隐藏
             item.stop().animate({
                 opacity: 0
-            },300,function() {
+            }, 300, function () {
                 item.hide();
                 // 让对应的元素显示出来
                 item.eq(index).show().stop().animate({
@@ -206,7 +222,7 @@ function yycjAddDatas() {
     let content = "";
 
     // 遍历数据
-    yycj.forEach(function(value) {
+    yycj.forEach(function (value) {
         // 将内容添加到模板字符串
         title = title + `
         <li class="${value.active}">

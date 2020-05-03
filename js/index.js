@@ -7,6 +7,8 @@ $(document).ready(function () {
     });
     // 解决方案tab切换
     tabToggle($('.program-bar ul>li'), $('.program-left>.program-itme'), 'active', null, 500);
+    // 解决方案背景图片切换
+    programBgToggle();
 
     // 云市场tab切换
     cloudTab();
@@ -56,7 +58,7 @@ function banner() {
  * @param {time} number 动画时间(默认300)
  */
 
-function tabToggle(element, child, classname, obj, time) {
+function tabToggle(element, child, classname, obj, time,callback) {
     // 获取元素
     let el = $(element);
     let cld = $(child);
@@ -152,5 +154,21 @@ function shangyunTab() {
                 document.querySelector('.shangyun-content-item').temp = index;
             });
         }
+    })
+}
+
+
+// 解决方案背景图片切换
+function programBgToggle() {
+    // 获取元素
+    let father = $('.program');
+    let li = $('.program-bar>ul>li');
+
+    // 绑定事件
+    li.click(function() {
+        // 获取索引
+        let index = $(this).index();
+        // 设置背景图片
+        father.css('backgroundImage',`url(./images/pro-0${index + 1}.jpg)`)
     })
 }

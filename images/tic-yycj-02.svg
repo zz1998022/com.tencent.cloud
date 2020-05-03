@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="830px" height="530px" viewBox="0 0 830 530" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Deploy infrastructures in a multi-cloud environment cx</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Deploy-infrastructures-in-a-multi-cloud-environment-cx" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="830" height="530"></rect>
+        <g id="BlueRectGroup8" transform="translate(95.000000, 100.000000)">
+            <rect id="Rectangle" fill="#CEE3FF" fill-rule="nonzero" x="0" y="0" width="644" height="160"></rect>
+            <g id="Group" transform="translate(10.000000, 9.000000)" fill="#00A4FF">
+                <g transform="translate(0.000000, 3.000000)" fill-rule="nonzero">
+                    <g>
+                        <path d="M7.5,0 C6.7,0 6,0.7 6,1.5 C6,2.2 6.4,2.7 7,2.9 L7,5 L8,5 L8,2.9 C8.6,2.7 9,2.1 9,1.5 C9,0.7 8.3,0 7.5,0 Z" id="Path"></path>
+                        <circle id="Oval" cx="7.5" cy="13.5" r="1.5"></circle>
+                        <path d="M3.3,3.2 C2.5,2.8 1.6,3 1.2,3.8 C0.8,4.5 1,5.4 1.8,5.8 C1.9,5.8 2,5.9 2,5.9 L2,8 L3,8 L3,5.9 C3.1,5.9 3.3,5.8 3.4,5.7 L5.1,6.7 L5.6,5.8 L3.9,4.9 C4.1,4.2 3.8,3.5 3.3,3.2 Z" id="Path"></path>
+                        <circle id="Oval" transform="translate(12.500100, 10.500600) rotate(-59.999272) translate(-12.500100, -10.500600) " cx="12.5001" cy="10.5006" r="1.499967"></circle>
+                        <circle id="Oval" transform="translate(2.500200, 10.499700) rotate(-30.000728) translate(-2.500200, -10.499700) " cx="2.5002" cy="10.4997" r="1.499967"></circle>
+                        <path d="M12,5.9 L12,8 L13,8 L13,5.9 C13.1,5.9 13.2,5.8 13.2,5.8 C13.9,5.4 14.2,4.5 13.7,3.8 C13.3,3.1 12.4,2.8 11.7,3.3 C11.1,3.6 10.8,4.3 11,5 L9.4,5.8 L9.9,6.7 L11.6,5.7 C11.7,5.8 11.9,5.9 12,5.9 Z" id="Path"></path>
+                        <path d="M7.5,6 C6.7,6 6,6.7 6,7.5 C6,8.2 6.4,8.7 7,8.9 L7,11 L8,11 L8,8.9 C8.6,8.7 9,8.1 9,7.5 C9,6.7 8.3,6 7.5,6 Z" id="Path"></path>
+                    </g>
+                </g>
+                <text id="TIC" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal">
+                    <tspan x="21" y="15">TIC</tspan>
+                </text>
+            </g>
+        </g>
+        <path d="M415.995815,516.991631 C352.171928,516.457305 300.534326,464.819703 300,400.995815 L415.995815,400.995815 L415.995815,516.991631 Z M300,398.995815 C300.534326,335.171928 352.171928,283.534326 415.995815,283 L415.995815,398.995815 L300,398.995815 Z M417.995815,283 C481.819703,283.534326 533.457305,335.171928 533.991631,398.995815 L417.995815,398.995815 L417.995815,283 Z M533.991631,400.995815 C533.457305,464.819703 481.819703,516.457305 417.995815,516.991631 L417.995815,400.995815 L533.991631,400.995815 Z" id="Combined-Shape" fill="#CEE3FF" transform="translate(416.995815, 399.995815) rotate(-315.000000) translate(-416.995815, -399.995815) "></path>
+        <text id="Cloud-Provider-2" fill="#444444" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal">
+            <tspan x="385" y="322">Cloud </tspan>
+            <tspan x="385" y="342">Provider 2</tspan>
+        </text>
+        <text id="Cloud-Provider-4" fill="#444444" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal">
+            <tspan x="385" y="464">Cloud </tspan>
+            <tspan x="385" y="484">Provider 4</tspan>
+        </text>
+        <text id="Cloud-Provider-3" fill="#444444" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal">
+            <tspan x="452" y="395">Cloud </tspan>
+            <tspan x="452" y="415">Provider 3</tspan>
+        </text>
+        <g id="Group" transform="translate(316.000000, 390.000000)" fill-rule="nonzero">
+            <g>
+                <g>
+                    <path d="M23.23,8.19 C22.1491407,7.08299314 20.6671653,6.45919326 19.12,6.46 C17.787354,6.45774204 16.4972685,6.92911945 15.48,7.79 C15.02,8.16 14.54,8.61 13.94,9.19 L4.94,17.91 C5.48432487,17.9733569 6.03201094,18.0034128 6.58,18 L19.51,18 C20.8799779,17.925008 22.1765091,17.3566655 23.16,16.4 C24.2581458,15.3339119 24.8877411,13.8752034 24.9102462,12.3448566 C24.9327513,10.8145097 24.3463222,9.33791847 23.28,8.24 L23.23,8.19 Z M21.56,14.74 C20.8770392,15.3869029 19.9706872,15.7451448 19.03,15.74 L10.41,15.7400547 L15.41,10.89 C15.64,10.67 16.16,10.17 16.6,9.77 C17.2670486,9.12974396 18.1554032,8.77153647 19.08,8.77 C20.4973993,8.77960392 21.769915,9.64077945 22.3057496,10.9530273 C22.8415841,12.2652751 22.5355611,13.7710206 21.53,14.77 L21.56,14.74 Z" id="Shape" fill="#00A3FF"></path>
+                    <path d="M9.21,7.64 C8.22132552,6.86916995 7.00365707,6.45037647 5.75,6.45 C3.40864898,6.46189587 1.3066145,7.88750008 0.429491185,10.0583803 C-0.447632125,12.2292605 0.0740764485,14.7149629 1.75,16.35 C2.63220296,17.2133953 3.77454253,17.7617183 5,17.91 L7.24,15.74 L5.9,15.74 C4.95931284,15.7451448 4.0529608,15.3869029 3.37,14.74 C2.36443891,13.7410206 2.05841592,12.2352751 2.59425044,10.9230273 C3.13008496,9.61077945 4.40260072,8.74960392 5.82,8.74 C6.70866071,8.77228534 7.5549686,9.12787689 8.2,9.74 C8.66,10.12 9.71,11.04 10.12,11.41 L11.74,9.83 C10.94,9.09 9.86,8.12 9.21,7.64 Z" id="Path" fill="#00C5D9"></path>
+                    <path d="M19.72,5.15 C18.5371664,1.81788832 15.2442215,-0.286892382 11.723424,0.0387577941 C8.20262642,0.36440797 5.35159948,3.03746489 4.8,6.53 C5.13036606,6.47425062 5.46497255,6.4474821 5.8,6.45 C6.23774812,6.4482763 6.67414731,6.49863005 7.1,6.6 L7.1,6.6 C7.59995045,4.3078739 9.50586309,2.58978544 11.8373922,2.32946909 C14.1689213,2.06915273 16.4068286,3.32458168 17.4,5.45 C18.1088707,5.25290211 18.8456052,5.17517324 19.58,5.22 C19.72,5.26 19.75,5.22 19.72,5.15 Z" id="Path" fill="#006EFF"></path>
+                </g>
+                <g transform="translate(28.000000, 2.000000)" fill="#000000">
+                    <path d="M25.27,1 L17.94,1 L17.94,2.1 L20.15,2.1 L20.15,6 L17.61,6 L17.61,7 L20.14,7 L20.14,13.49 L21.31,13.49 L21.31,7 L24.1,7 L24.1,13.36 L26.31,13.36 L26.31,12.36 L25.31,12.36 L25.27,1 Z M21.27,5.93 L21.27,2.1 L24.06,2.1 L24.06,6 L21.27,5.93 Z" id="Shape"></path>
+                    <rect id="Rectangle" x="4.92" y="10.56" width="5.79" height="1.06"></rect>
+                    <path d="M1,8.6 C1.03358639,10.1804325 0.872372559,11.7589846 0.52,13.3 C0.52,13.42 0.52,13.45 0.59,13.45 L1.65,13.45 C1.90937825,12.0150308 2.02661223,10.5579799 2,9.1 L3.49,9.1 L3.49,12.4 L2.49,12.4 C2.49,12.4 2.4,12.4 2.43,12.51 L2.72,13.51 L4.61,13.51 L4.61,1.07 L1,1.07 L1,8.6 Z M2,8.15 L2,5.61 L3.49,5.61 L3.49,8.15 L2,8.15 Z M3.49,2.15 L3.49,4.67 L2,4.67 L2,2.13 L3.49,2.15 Z" id="Shape"></path>
+                    <path d="M11.12,5.37 L12.55,5.37 L12.55,4.37 L8.39,4.37 C8.5214108,4.04308898 8.63491235,3.70926089 8.73,3.37 L12.28,3.37 L12.28,2.37 L11.28,2.37 L11.67,1 C11.67,0.93 11.67,0.9 11.61,0.9 L10.71,0.9 L10.29,2.33 L9,2.33 C9.12,1.78 9.22,1.17 9.32,0.48 C9.32,0.4 9.32,0.38 9.24,0.38 L8.24,0.38 C8.13,1.11 8.02,1.74 7.88,2.33 L7.25,2.33 L6.77,1 L5.87,1 C5.87,1 5.79,1 5.81,1.1 L6.2,2.43 L5.2,2.43 L5.2,3.43 L7.57,3.43 C7.4595295,3.77062399 7.32930889,4.10452298 7.18,4.43 L4.92,4.43 L4.92,5.43 L6.6,5.43 C6.15490507,6.06771719 5.57871475,6.60299459 4.91,7 L4.91,8 C4.91,8.06 4.91,8.11 5.13,8 C5.47593068,7.81069437 5.80989413,7.60029739 6.13,7.37 L10.13,7.37 L10.13,8.8 L6.92,8.8 L7,8 C7,7.96686292 6.97313708,7.94 6.94,7.94 L5.94,7.94 L5.84,9.75 C5.84,9.78313708 5.86686292,9.81 5.9,9.81 L11.29,9.81 L11.29,12.4 L8.82,12.4 C8.82,12.4 8.73,12.4 8.76,12.51 L9.05,13.51 L12.42,13.51 L12.42,8.91 L11.1,8.91 L11.1,7 C11.5402688,7.4087596 12.0269207,7.76451896 12.55,8.06 C12.72,8.16 12.77,8.06 12.77,8.06 L12.77,7 C12.1098085,6.58085736 11.5471623,6.0250311 11.12,5.37 L11.12,5.37 Z M9.82,5.37 C10.0570954,5.75979403 10.3281481,6.12789026 10.63,6.47 L7.15,6.47 C7.44248359,6.129755 7.70041855,5.7612765 7.92,5.37 L9.82,5.37 Z" id="Shape"></path>
+                    <path d="M18.68,9.82 L16.68,11.31 L16.68,4.41 L14,4.41 L14,5.58 L15.57,5.58 L15.57,12.19 L14.94,12.67 L15.58,13.52 L18.8,11.08 L18.8,9.88 C18.8204598,9.85818707 18.824802,9.82578537 18.8108072,9.79935518 C18.7968125,9.772925 18.7675725,9.75830498 18.7380315,9.76296732 C18.7084905,9.76762966 18.6851745,9.79054441 18.68,9.82 L18.68,9.82 Z" id="Path"></path>
+                    <path d="M15.7,3.37 L17,3.37 C17.0167587,3.35888353 17.0268338,3.34011045 17.0268338,3.32 C17.0268338,3.29988955 17.0167587,3.28111647 17,3.27 L15.39,0.81 L14.15,0.81 C14.1235675,0.801751636 14.0949234,0.812662708 14.0806772,0.836406323 C14.066431,0.860149938 14.0702832,0.890558789 14.09,0.91 L15.7,3.37 Z" id="Path"></path>
+                    <rect id="Rectangle" x="28.78" y="1.33" width="9.22" height="1.17"></rect>
+                    <path d="M32.12,6.91 L39.3,6.91 L39.3,5.74 L27.48,5.74 L27.48,6.91 L30.76,6.91 L28.37,13.18 C28.3496285,13.2027761 28.3496285,13.2372239 28.37,13.26 L38.62,13.26 C38.6386499,13.2575297 38.6555205,13.2476564 38.6668082,13.2326061 C38.6780959,13.2175559 38.6828504,13.1985956 38.68,13.18 L38.68,13.18 L37.16,9.18 L35.89,9.18 C35.8671577,9.17677706 35.8444904,9.18693534 35.8316943,9.20612952 C35.8188982,9.22532371 35.8182395,9.2501544 35.83,9.27 L36.91,12.1 L30.15,12.1 L32.12,6.91 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+        <polyline id="Path" stroke="#888888" points="237 179.5 251 179.5 251 179.5 264 179.5"></polyline>
+        <g id="Group" transform="translate(259.000000, 175.000000)" fill="#888888">
+            <polygon id="Path" points="0.5 9 6.5 4.5 0.5 0"></polygon>
+        </g>
+        <path d="M237,179.5 L251,179.5" id="Path" stroke-opacity="0" stroke="#FF0000" stroke-width="15"></path>
+        <path d="M251,179.5 L264,179.5" id="Path" stroke-opacity="0" stroke="#FF0000" stroke-width="15"></path>
+        <polyline id="Path" stroke="#888888" points="366 179.5 378 179.5 378 179.5 391 179.5"></polyline>
+        <g id="Group" transform="translate(386.000000, 175.000000)" fill="#888888">
+            <polygon id="Path" points="0.5 9 6.5 4.5 0.5 0"></polygon>
+        </g>
+        <path d="M366,179.5 L378,179.5" id="Path" stroke-opacity="0" stroke="#FF0000" stroke-width="15"></path>
+        <path d="M378,179.5 L391,179.5" id="Path" stroke-opacity="0" stroke="#FF0000" stroke-width="15"></path>
+        <polyline id="Path" stroke="#888888" points="495 179.5 508 179.5 508 179.5 521 179.5"></polyline>
+        <g id="Group" transform="translate(516.000000, 175.000000)" fill="#888888">
+            <polygon id="Path" points="0.5 9 6.5 4.5 0.5 0"></polygon>
+        </g>
+        <path d="M495,179.5 L508,179.5" id="Path" stroke-opacity="0" stroke="#FF0000" stroke-width="15"></path>
+        <path d="M508,179.5 L521,179.5" id="Path" stroke-opacity="0" stroke="#FF0000" stroke-width="15"></path>
+        <polyline id="Path" stroke="#888888" points="593 179.5 609 179.5 609 179.5 625 179.5"></polyline>
+        <g id="Group" transform="translate(620.000000, 175.000000)" fill="#888888">
+            <polygon id="Path" points="0.5 9 6.5 4.5 0.5 0"></polygon>
+        </g>
+        <path d="M593,179.5 L609,179.5" id="Path" stroke-opacity="0" stroke="#FF0000" stroke-width="15"></path>
+        <path d="M609,179.5 L625,179.5" id="Path" stroke-opacity="0" stroke="#FF0000" stroke-width="15"></path>
+        <g id="Link24" transform="translate(541.000000, 179.000000)">
+            <polyline id="Path" stroke="#888888" points="197.5 0.5 232.5 0.5 232.5 225.5 2.5 225.5"></polyline>
+            <g id="Group" transform="translate(0.500000, 221.000000)" fill="#888888">
+                <polygon id="Path" points="0.5 4.5 6.5 9 6.5 0"></polygon>
+            </g>
+            <path d="M197.5,0.5 L232.5,0.5" id="Path" stroke-opacity="0" stroke="#FF0000" stroke-width="15"></path>
+            <path d="M232.5,0.5 L232.5,215.5" id="Path" stroke-opacity="0" stroke="#FF0000" stroke-width="15"></path>
+            <path d="M232.5,215.5 L202.5,215.5" id="Path" stroke-opacity="0" stroke="#FF0000" stroke-width="15"></path>
+        </g>
+        <g id="Link14" transform="translate(57.000000, 35.000000)">
+            <polyline id="Path" stroke="#888888" points="317.5 0.5 0.5 0.5 0.5 144.5 30.5 144.5"></polyline>
+            <g id="Group" transform="translate(25.500000, 140.000000)" fill="#888888">
+                <polygon id="Path" points="0.5 9 6.5 4.5 0.5 0"></polygon>
+            </g>
+            <path d="M317.5,0.5 L0.5,0.5" id="Path" stroke-opacity="0" stroke="#FF0000" stroke-width="15"></path>
+            <path d="M0.5,0.5 L0.5,144.5" id="Path" stroke-opacity="0" stroke="#FF0000" stroke-width="15"></path>
+            <path d="M0.5,144.5 L30.5,144.5" id="Path" stroke-opacity="0" stroke="#FF0000" stroke-width="15"></path>
+        </g>
+        <g id="maingroup" transform="translate(119.000000, 11.000000)">
+            <g id="RectEndPoint1" transform="translate(237.000000, 0.000000)">
+                <rect id="Rectangle" fill="#BBBBBB" fill-rule="nonzero" opacity="0.6" x="2" y="2" width="120" height="50"></rect>
+                <rect id="Rectangle" stroke="#E5E5E5" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="120" height="50"></rect>
+                <g id="Group" transform="translate(20.000000, 12.000000)">
+                    <g fill="#878787" fill-rule="nonzero">
+                        <g>
+                            <path d="M12,2.13 C14.209139,2.13 16,3.920861 16,6.13 C16,8.339139 14.209139,10.13 12,10.13 C9.790861,10.13 8,8.339139 8,6.13 C8,3.920861 9.790861,2.13 12,2.13 L12,2.13 Z M12,0.13 C8.6862915,0.13 6,2.8162915 6,6.13 C6,9.4437085 8.6862915,12.13 12,12.13 C15.3137085,12.13 18,9.4437085 18,6.13 C18,2.8162915 15.3137085,0.13 12,0.13 Z" id="Shape"></path>
+                            <path d="M16,16.13 C19.3137085,16.13 22,18.8162915 22,22.13 L22,23.13 L2,23.13 L2,22.13 C2,18.8162915 4.6862915,16.13 8,16.13 L16,16.13 L16,16.13 Z M16,14.13 L8,14.13 C3.581722,14.13 5.41083001e-16,17.711722 0,22.13 L0,25.13 L24,25.13 L24,22.13 C24,17.711722 20.418278,14.13 16,14.13 Z" id="Shape"></path>
+                            <path d="M25,14.12 L22,14.12 C22.7575263,14.6891538 23.4308462,15.3624737 24,16.12 L25,16.12 C27.209139,16.12 29,17.910861 29,20.12 L29,21.12 L26,21.12 C26,21.45 26,21.78 26,22.12 L26,23.12 L31,23.12 L31,20.12 C31,16.8062915 28.3137085,14.12 25,14.12 L25,14.12 Z" id="Path"></path>
+                            <path d="M21,1.12 C20.1857537,1.12491632 19.3853482,1.33102935 18.67,1.72 C19.0368586,2.27761909 19.3324892,2.87895854 19.55,3.51 C20.8113612,2.79515369 22.403453,3.08465116 23.3324257,4.19777604 C24.2613983,5.31090092 24.2613983,6.92909908 23.3324257,8.04222396 C22.403453,9.15534884 20.8113612,9.44484631 19.55,8.73 C19.3324892,9.36104146 19.0368586,9.96238091 18.67,10.52 C19.3853482,10.9089707 20.1857537,11.1150837 21,11.12 C23.7614237,11.12 26,8.88142375 26,6.12 C26,3.35857625 23.7614237,1.12 21,1.12 L21,1.12 Z" id="Path"></path>
+                        </g>
+                    </g>
+                    <text id="客户" fill="#444444" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal">
+                        <tspan x="42" y="18">客户</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="RectEndPoint2" transform="translate(0.000000, 144.000000)">
+                <rect id="Rectangle" fill="#BBBBBB" fill-rule="nonzero" opacity="0.6" x="2" y="2" width="117.796875" height="50"></rect>
+                <rect id="Rectangle" stroke="#E5E5E5" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="117.796875" height="50"></rect>
+                <g id="Group" transform="translate(20.000000, 15.000000)" fill="#444444" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal">
+                    <text id="选择-Region">
+                        <tspan x="0" y="15">选择 Region</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="RectEndPoint3" transform="translate(149.500000, 144.000000)">
+                <rect id="Rectangle" fill="#BBBBBB" fill-rule="nonzero" opacity="0.6" x="2" y="2" width="97" height="50"></rect>
+                <rect id="Rectangle" stroke="#E5E5E5" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="97" height="50"></rect>
+                <g id="Group" transform="translate(20.000000, 15.000000)" fill="#444444" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal">
+                    <text id="选择模版">
+                        <tspan x="0" y="15">选择模版</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="RectEndPoint4" transform="translate(279.000000, 144.000000)">
+                <rect id="Rectangle" fill="#BBBBBB" fill-rule="nonzero" opacity="0.6" x="2" y="2" width="97" height="50"></rect>
+                <rect id="Rectangle" stroke="#E5E5E5" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="97" height="50"></rect>
+                <g id="Group" transform="translate(20.000000, 15.000000)" fill="#444444" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal">
+                    <text id="配置参数">
+                        <tspan x="0" y="15">配置参数</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="RectEndPoint5" transform="translate(407.000000, 144.000000)">
+                <rect id="Rectangle" fill="#BBBBBB" fill-rule="nonzero" opacity="0.6" x="2" y="2" width="67" height="50"></rect>
+                <rect id="Rectangle" stroke="#E5E5E5" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="67" height="50"></rect>
+                <g id="Group" transform="translate(20.000000, 15.000000)" fill="#444444" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal">
+                    <text id="Plan">
+                        <tspan x="0" y="15">Plan</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="RectEndPoint7" transform="translate(511.000000, 144.000000)">
+                <rect id="Rectangle" fill="#BBBBBB" fill-rule="nonzero" opacity="0.6" x="2" y="2" width="75" height="50"></rect>
+                <rect id="Rectangle" stroke="#E5E5E5" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="75" height="50"></rect>
+                <g id="Group" transform="translate(20.000000, 15.000000)" fill="#444444" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal">
+                    <text id="Apply">
+                        <tspan x="0" y="15">Apply</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
